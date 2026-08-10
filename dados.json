@@ -1,0 +1,56 @@
+{
+  "escolas": {
+    "CED02Braz": "CED 02 DE BRAZLANDIA",
+    "CEFTamandu": "CEF TAMANDUA",
+    "CEFPAB": "CEF PONTE ALTA DO BAIXO",
+    "CEDVargenB": "CED VARGEM BONITA",
+    "CEF306Nort": "CEF 306 NORTE",
+    "CEF102Nort": "CEF 102 NORTE",
+    "CEF104Nort": "CEF 104 NORTE",
+    "CEDGISNO": "CED GISNO",
+    "CEF201SM": "CEF 201 DE SANTA MARIA",
+    "CEF12Tagua": "CEF 12 DE TAGUATINGA",
+    "CEF14Tagua": "CEF 14 DE TAGUATINGA",
+    "CEF16Tagua": "CEF 16 DE TAGUATINGA",
+    "CEF17Tagua": "CEF 17 DE TAGUATINGA",
+    "EBLPTagua": "EBLP DE TAGUATINGA",
+    "CEF26Ceil": "CEF 26 DE CEILANDIA"
+  },
+  "itens": {
+    "CX#1": {
+      "code": "CX#1",
+      "name": "CX#1 - Componentes Eletrônicos",
+      "short": "CX#1 - Componentes Eletrônicos",
+      "category": "Caixa do kit",
+      "url": "https://pt.wikiversity.org/wiki/Kit_de_Robótica_e_Eletrônica_Básica_Caixa_1"
+    },
+    "CX#2": {
+      "code": "CX#2",
+      "name": "CX#2 - Resistores",
+      "short": "CX#2 - Resistores",
+      "category": "Caixa do kit",
+      "url": "https://pt.wikiversity.org/wiki/Kit_de_Robótica_e_Eletrônica_Básica_Caixa_2"
+    },
+    "CX#3": {
+      "code": "CX#3",
+      "name": "CX#3 - Ferramentas, Energia e Montagem",
+      "short": "CX#3 - Ferramentas, Energia e Montagem",
+      "category": "Caixa do kit",
+      "url": "https://pt.wikiversity.org/wiki/Kit_de_Robótica_e_Eletrônica_Básica_Caixa_3"
+    },
+    "MULTDT830b#1": {
+      "code": "MULTDT830b#1",
+      "name": "Multímetro Digital DT830b – #1 de 2",
+      "short": "Multímetro Digital DT830b – #1 de 2",
+      "category": "Equipamento",
+      "url": "https://pt.wikiversity.org/wiki/Multímetro_Digital_DT830b"
+    },
+    "MULTDT830b#2": {
+      "code": "MULTDT830b#2",
+      "name": "Multímetro Digital DT830b – #2 de 2",
+      "short": "Multímetro Digital DT830b – #2 de 2",
+      "category": "Equipamento",
+      "url": "https://pt.wikiversity.org/wiki/Multímetro_Digital_DT830b"
+    }
+  }
+}

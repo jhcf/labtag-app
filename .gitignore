@@ -1,0 +1,42 @@
+# Configuracao sensivel — nunca commitar
+.env
+app.env
+secrets.json
+
+# Chave de assinatura do APK de release e arquivos de senha associados —
+# nunca commitar. Sem o .keystore original, nao da para publicar
+# atualizacoes compativeis com quem ja instalou o app.
+*.keystore
+*.jks
+key.properties
+
+# Build do buildozer / python-for-android
+.buildozer/
+bin/
+*.apk
+
+# bundletool (binario grande, baixado automaticamente pelo release.sh) e
+# os pacotes .apks intermediarios gerados por ele
+bundletool.jar
+*.apks
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Banco de dados local gerado em tempo de execucao
+*.db
+
+# Editor / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Variaveis de ambiente do release.sh reunidas num arquivo local (senha e
+# alias do keystore) — nunca commitar.
+release.local.env

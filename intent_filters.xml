@@ -1,0 +1,23 @@
+<!--
+  Registra o app como candidato a receber etiquetas NFC diretamente pelo
+  Android (nao so via enableForegroundDispatch em tempo de execucao).
+
+  Sem isto, o app SO recebe a etiqueta enquanto o registro dinamico de
+  dispatch estiver ativo; qualquer lapso momentaneo (troca de tela, etc.)
+  faz o Android entregar a etiqueta para outro app/leitor do sistema em
+  vez do nosso — e e isso que produz uma tela generica e sem estilo do
+  proprio sistema no lugar da nossa interface.
+
+  Com este registro fixo no manifesto, o app aparece como opcao (ou opcao
+  unica) para QUALQUER leitura de NFC, mesmo se o dispatch dinamico falhar
+  num instante especifico.
+-->
+<intent-filter>
+    <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <data android:mimeType="text/plain" />
+</intent-filter>
+<intent-filter>
+    <action android:name="android.nfc.action.TAG_DISCOVERED" />
+    <category android:name="android.intent.category.DEFAULT" />
+</intent-filter>
