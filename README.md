@@ -1,7 +1,7 @@
 # LabTag — Cadastro e Leitura de Etiquetas RFID das Caixas
 
 App Kivy (nome do app: **LabTag**) que gerencia as etiquetas RFID/NFC das
-caixas e itens do Kit de Robótica e Eletrônica do projeto REDEMAISCIENCIADF.
+dos recursos do projeto REDEMAISCIENCIADF.
 
 > **Nota:** este README descreve o comportamento geral do app; algumas seções
 > (fluxo de gravação, telas, senha do modo Preparação) foram bastante
@@ -10,17 +10,17 @@ caixas e itens do Kit de Robótica e Eletrônica do projeto REDEMAISCIENCIADF.
 
 ## O que o app faz
 
-Ao aproximar uma etiqueta do aparelho:
+Ao aproximar uma etiqueta do smartphone:
 
-1. **Etiqueta em branco** → o app pede para escolher o tipo de caixa (1, 2 ou 3),
+1. **Etiqueta em branco** → o app pede para escolher o tipo de recurso, por exemplo uma caixa de materiais eletrônicos (1, 2 ou 3),
    **grava essa informação na própria etiqueta** (registro NDEF de texto) e
    **registra a associação** num banco de dados local (SQLite).
 2. **Etiqueta já cadastrada** → o app registra a leitura e **abre a URL do guia de
-   exploração** daquela caixa na Wikiversidade.
+   exploração, ou de unboxing** daquele recurso (por exemplo, um caixa de resistores) na Wikiversidade.
 
 Em qualquer leitura, um **painel de detalhes** logo abaixo do status mostra os
 dados da última etiqueta: o **UID** (id físico do chip), a situação (em branco /
-gravada / já cadastrada), a caixa e a escola associadas, o **conteúdo NDEF
+gravada / já cadastrada), o recurso e a escola associada que tem a posse do recurso, o **conteúdo NDEF
 gravado** (ex.: `REDEMAISDF|2|E07`) e o registro local (número de leituras e
 datas de cadastro/última leitura).
 
@@ -53,12 +53,29 @@ de cada caixa na Wikiversidade. Este é o único passo obrigatório de configura
 
 ## Testar no computador (sem celular)
 
+
 O app tem um **modo simulação** que roda no desktop, sem NFC real, para você
 validar todo o fluxo:
 
 ```bash
+git clone https://github.com/jhcf/labtag-app.git
+```
+
+O app tem um **modo simulação** que roda no desktop, sem NFC real, para você
+validar todo o fluxo:
+
+```bash
+cd labtag-app/
+/usr/bin/python3 -m venv .venv
+source .venv/bin/activate
 pip install kivy
-python main.py
+pip install --upgrade pip buildozer cython==0.29.34
+PATH="$(echo "$PATH" | tr ':' '\n' | grep -v '\.pyenv' | paste -sd:)"
+sudo apt install -y git zip unzip openjdk-17-jdk autoconf libtool pkg-config   zlib1g-dev libncurses-dev libtinfo6 cmake libffi-dev libssl-dev build-essential ccache
+pip install legacy-cgi setuptools
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+export PATH="$JAVA_HOME/bin:$PATH"
+buildozer -v android debug
 ```
 
 Na base da tela aparecem dois botões:
