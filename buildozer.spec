@@ -10,8 +10,8 @@
 # renomear o identificador interno, avise: é uma decisão consciente, não
 # um esquecimento.
 title = LabTag
-package.name = redemaisetiquetas
-package.domain = br.unb.redemaisdf
+package.name = labtag
+package.domain = br.unb.maiscienciadf
 
 # Código-fonte
 source.dir = .
@@ -69,15 +69,6 @@ android.manifest_intent_filters = %(source.dir)s/intent_filters.xml
 # toolchain não reconhece a opção --feature e o build falha. A exigência de
 # hardware NFC na Play Store pode ser adicionada depois, por outro caminho.
 
-# Modo QR/tombamento (leitura de etiquetas de patrimônio já existentes):
-# NÃO precisa de permissão CAMERA nem de nenhuma dependência nova aqui —
-# o app delega a leitura para um app scanner EXTERNO via Intent (ver
-# qr_scanner.py), em vez de embutir câmera/decodificador de QR no próprio
-# LabTag. Decisão deliberada: qualquer dependência nativa nova neste
-# pipeline (p4a fixado, Gradle antigo, JDK sensível) já se mostrou uma
-# fonte recorrente de instabilidade de build — o Intent externo evita
-# esse risco por completo.
-
 # API levels (ajuste conforme o toolchain instalado).
 android.api = 33
 android.minapi = 21
@@ -90,7 +81,12 @@ android.enable_androidx = True
 # Mantém a Activity como singleTop para o foreground dispatch de NFC funcionar
 # corretamente (a tag chega via onNewIntent na mesma instância).
 android.manifest.launch_mode = singleTop
+android.release_artifact = apk
+android.extra_manifest_xml = android_extra_manifest.xml
 
 [buildozer]
 log_level = 2
 warn_on_root = 1
+
+
+

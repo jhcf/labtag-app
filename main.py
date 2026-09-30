@@ -953,19 +953,31 @@ class LabTagApp(App):
     def scan_tombamento(self):
         """Chamado pelo botao 'Ler QR de tombamento'. Dispara o Intent do
         scanner externo; o resultado chega depois, de forma assincrona,
-        em on_qr_result."""
+        em on_qr_result — exceto falhas imediatas (ex.: nenhum app
+        instalado), que o proprio scanner ja repassa via on_result."""
         _log("scan_tombamento: disparando scan")
         try:
             self.scanner.scan()
         except Exception as exc:
             _log("scan_tombamento: falhou: %s" % exc)
+            self.screens["espera"].show_error(
+                "Nao foi possivel abrir o leitor de QR: %s" % exc)
 
     @mainthread
-    def on_qr_result(self, value):
-        _log("on_qr_result: valor=%r" % value)
+    def on_qr_result(self, value, error=None):
+        _log("on_qr_result: valor=%r erro=%r" % (value, error))
+        if error:
+            # Falha de verdade (ex.: nenhum app scanner instalado) — isto
+            # PRECISA aparecer na tela, senao o botao parece nao fazer
+            # nada. Mostra na propria tela de espera (volta pra la se
+            # estivermos em outro lugar).
+            if self.sm.current != "espera":
+                self.go("espera", "right")
+            self.screens["espera"].show_error(error)
+            return
         if not value:
-            # Cancelado pelo usuario, ou nenhum app scanner respondeu ao
-            # Intent — nao ha nada de util a mostrar; so volta a espera.
+            # Cancelado pelo usuario de proposito — comportamento normal,
+            # nao ha nada de util a mostrar.
             return
         numero = value.strip()
         resolved = resource_by_tombamento(numero)
@@ -1194,8 +1206,12 @@ class LabTagApp(App):
         b4 = FlatButton("QR desconhecido", bg=LIGHT, fg=(0.2, 0.2, 0.2, 1),
                         height=38, font_size="12sp")
         b4.bind(on_release=lambda *_: self._sim_qr_unknown())
+        b5 = FlatButton("QR: app ausente", bg=LIGHT, fg=(0.2, 0.2, 0.2, 1),
+                        height=38, font_size="12sp")
+        b5.bind(on_release=lambda *_: self._sim_qr_error())
         bar2.add_widget(b3)
         bar2.add_widget(b4)
+        bar2.add_widget(b5)
         wrap.add_widget(bar2)
         return wrap
 
@@ -1218,6 +1234,9 @@ class LabTagApp(App):
 
     def _sim_qr_unknown(self):
         self.scanner.simulate_scan("000000-nao-cadastrado")
+
+    def _sim_qr_error(self):
+        self.scanner.simulate_error()
 
 
 if __name__ == "__main__":

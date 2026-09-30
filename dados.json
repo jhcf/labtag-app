@@ -54,7 +54,7 @@
       "name": "BANCADA FECHADA CHAVEADA TAMPO COMPENSADO 200X60X92 207 CDF FERCAR",
       "short": "BANCADA FECHADA CHAVEADA TAMPO COMPENSADO 200X60X92 207 CDF FERCAR",
       "category": "Infraestrutura e Mobiliário",
-      "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho",
+      "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho_2000mm_Fechada_Chaveada",
       "value": 2656.26
     },
     "I06": {
@@ -70,7 +70,7 @@
       "name": "MESA BANCADA TAMPO AÇO INOX 70X70 ESTRUTURA BRANCA ITAJOBI",
       "short": "MESA BANCADA TAMPO AÇO INOX 70X70 ESTRUTURA BRANCA ITAJOBI",
       "category": "Infraestrutura e Mobiliário",
-      "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho",
+      "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho_Inox_700x700mm",
       "value": 555.0
     },
     "I08": {
@@ -78,7 +78,7 @@
       "name": "ARMARIO COM 4 GAVETAS E DIV INTERNA",
       "short": "ARMARIO COM 4 GAVETAS E DIV INTERNA",
       "category": "Infraestrutura e Mobiliário",
-      "url": "https://pt.wikiversity.org/wiki/Armário_para_Materiais",
+      "url": "https://pt.wikiversity.org/wiki/Armário_para_Materiais_4_Gavetas_Divisórias_Internas",
       "value": 1142.68
     },
     "I09": {
@@ -86,7 +86,7 @@
       "name": "PORTA CHAVES CLAVICULARIO PARA 48 CHAVES EM AÇO",
       "short": "PORTA CHAVES CLAVICULARIO PARA 48 CHAVES EM AÇO",
       "category": "Infraestrutura e Mobiliário",
-      "url": "https://pt.wikiversity.org/wiki/Organizador_de_Chaves",
+      "url": "https://pt.wikiversity.org/wiki/Organizador_de_Chaves_48_Posicoes",
       "value": 67.89
     },
     "I10": {
@@ -94,7 +94,7 @@
       "name": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "short": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Carrinho_para_Ferramentas",
+      "url": "https://pt.wikiversity.org/wiki/Carrinho_Plástico_3_Bancadas",
       "value": 288.0
     },
     "I11": {
@@ -102,7 +102,7 @@
       "name": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "short": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Carrinho_para_Ferramentas",
+      "url": "https://pt.wikiversity.org/wiki/Carrinho_Plástico_3_Bancadas",
       "value": 299.41
     },
     "I12": {
@@ -110,7 +110,7 @@
       "name": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "short": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Carrinho_para_Ferramentas",
+      "url": "https://pt.wikiversity.org/wiki/Carrinho_Plástico_3_Bancadas",
       "value": 299.27
     },
     "I13": {
@@ -118,7 +118,7 @@
       "name": "SMART TV TV LG UHD AI UA75 55 HDR10",
       "short": "SMART TV TV LG UHD AI UA75 55 HDR10",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Smart_TV",
+      "url": "https://pt.wikiversity.org/wiki/Smart_TV_55_Polegadas",
       "value": 2499.0
     },
     "I14": {
@@ -126,7 +126,7 @@
       "name": "BANCADA PROFISSIONAL 200M 91508 PRESTO",
       "short": "BANCADA PROFISSIONAL 200M 91508 PRESTO",
       "category": "Infraestrutura e Mobiliário",
-      "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho",
+      "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho_2000mm",
       "value": 1241.68
     },
     "I15": {
@@ -134,7 +134,7 @@
       "name": "SWITCH DE MESA 8 PORTAS GIGABIT TP-LINK TI/SG108 ETHERNET",
       "short": "SWITCH DE MESA 8 PORTAS GIGABIT TP-LINK TI/SG108 ETHERNET",
       "category": "Informática, Redes e Dispositivos Móveis",
-      "url": "https://pt.wikiversity.org/wiki/Switch_de_Rede",
+      "url": "https://pt.wikiversity.org/wiki/Switch_de_Rede_8_Portas_Gigabit_TP-LINK_TI/SG108_ETHERNET",
       "value": 208.0
     },
     "I16": {
@@ -142,7 +142,7 @@
       "name": "SWITCH GERENCIAVEL 8 PORTAS GIGABIT INTELIGENTE TI SG108E",
       "short": "SWITCH GERENCIAVEL 8 PORTAS GIGABIT INTELIGENTE TI SG108E",
       "category": "Informática, Redes e Dispositivos Móveis",
-      "url": "https://pt.wikiversity.org/wiki/Switch_Gerenciável",
+      "url": "https://pt.wikiversity.org/wiki/Switch_de_Rede_8_Portas_Gigabit_TP-LINK_TI/SG108_ETHERNET",
       "value": 249.0
     },
     "I17": {
@@ -150,7 +150,7 @@
       "name": "SWITCH GERENCIAVEL EASY SMART GIGABIT DE 8 PORTAS TI-108E",
       "short": "SWITCH GERENCIAVEL EASY SMART GIGABIT DE 8 PORTAS TI-108E",
       "category": "Informática, Redes e Dispositivos Móveis",
-      "url": "https://pt.wikiversity.org/wiki/Switch_Gerenciável",
+      "url": "https://pt.wikiversity.org/wiki/Switch_de_Rede_8_Portas_Gigabit_TP-LINK_TI/SG108_ETHERNET",
       "value": 239.98
     },
     "I18": {
@@ -158,7 +158,7 @@
       "name": "TABLET SAMSUNG A11 4GB 64GB",
       "short": "TABLET SAMSUNG A11 4GB 64GB",
       "category": "Informática, Redes e Dispositivos Móveis",
-      "url": "https://pt.wikiversity.org/wiki/Tablet",
+      "url": "https://pt.wikiversity.org/wiki/Tablet_Samsung_A11_4GB_64GB",
       "value": 950.0
     },
     "I19": {
@@ -166,7 +166,7 @@
       "name": "TABLET A9 64GB 4GB RAM MODELO:SAMSUNG",
       "short": "TABLET A9 64GB 4GB RAM MODELO:SAMSUNG",
       "category": "Informática, Redes e Dispositivos Móveis",
-      "url": "https://pt.wikiversity.org/wiki/Tablet",
+      "url": "https://pt.wikiversity.org/wiki/Tablet_A9_4GB_64GB",
       "value": 796.0
     },
     "I20": {
@@ -174,7 +174,7 @@
       "name": "XPPEN DECO FUN S MESA DIGITALIZADORA 8192",
       "short": "XPPEN DECO FUN S MESA DIGITALIZADORA 8192",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Mesa_Digitalizadora",
+      "url": "https://pt.wikiversity.org/wiki/Mesa_Digitalizadora_8192",
       "value": 222.13
     },
     "I21": {
@@ -182,7 +182,7 @@
       "name": "MESA DECO FUN S",
       "short": "MESA DECO FUN S",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Mesa_Digitalizadora",
+      "url": "https://pt.wikiversity.org/wiki/Mesa_Digitalizadora_8192",
       "value": 231.31
     },
     "I22": {
@@ -190,7 +190,7 @@
       "name": "MOTOROLA G565G 256GB",
       "short": "MOTOROLA G565G 256GB",
       "category": "Informática, Redes e Dispositivos Móveis",
-      "url": "https://pt.wikiversity.org/wiki/Smartphone",
+      "url": "https://pt.wikiversity.org/wiki/Smartphone_Motorola_G565G_256GB",
       "value": 1394.0
     },
     "I23": {
@@ -198,7 +198,7 @@
       "name": "CAMERA SPORT ACTION DE BOLSO HD 1 3 TELA LCD POCKET 360 PRETO",
       "short": "CAMERA SPORT ACTION DE BOLSO HD 1 3 TELA LCD POCKET 360 PRETO",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação",
+      "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação_HD_1.3_Polegadas",
       "value": 394.0
     },
     "I24": {
@@ -206,7 +206,7 @@
       "name": "CAMERA SPORT AÇÃO DE BOLSO 13MP TELA LCD POCKET 360",
       "short": "CAMERA SPORT AÇÃO DE BOLSO 13MP TELA LCD POCKET 360",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação",
+      "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação_13_MP_Tela_LCD_Pocket_360",
       "value": 219.99
     },
     "I25": {
@@ -214,7 +214,7 @@
       "name": "CAMERA SPORTIVA AKASO V50X 4K NTSC/PAL BLACK",
       "short": "CAMERA SPORTIVA AKASO V50X 4K NTSC/PAL BLACK",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação",
+      "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação_4K_NTSC_PAL",
       "value": 713.0
     },
     "I26": {
@@ -222,7 +222,7 @@
       "name": "ESTABILIZADOR GIMBAL RH",
       "short": "ESTABILIZADOR GIMBAL RH",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Estabilizador_de_Câmera",
+      "url": "https://pt.wikiversity.org/wiki/Estabilizador_de_Câmera_Gimbal",
       "value": 314.9
     },
     "I27": {
@@ -230,7 +230,7 @@
       "name": "MICROFONE AKG P120 CONDENSADOR DE DIAFRAGMA GRANDE",
       "short": "MICROFONE AKG P120 CONDENSADOR DE DIAFRAGMA GRANDE",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Microfone_Condensador",
+      "url": "https://pt.wikiversity.org/wiki/Microfone_Condensador_AKG_P120",
       "value": 799.0
     },
     "I28": {
@@ -238,7 +238,7 @@
       "name": "MESA DE SOM BEHRINGER XENIX 1002SFX 10 CANAIS",
       "short": "MESA DE SOM BEHRINGER XENIX 1002SFX 10 CANAIS",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Mesa_de_Som",
+      "url": "https://pt.wikiversity.org/wiki/Mesa_de_Som_10_Canais",
       "value": 1030.0
     },
     "I29": {
@@ -246,7 +246,7 @@
       "name": "MESA DE SOM BEHRINGER XENIX 1002SFX 10 CANAIS",
       "short": "MESA DE SOM BEHRINGER XENIX 1002SFX 10 CANAIS",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Mesa_de_Som",
+      "url": "https://pt.wikiversity.org/wiki/Mesa_de_Som_10_Canais",
       "value": 1014.0
     },
     "I30": {
@@ -254,7 +254,7 @@
       "name": "INTERFACE AUDIO USB BEHRINGER U-PHORIA UMC202HD",
       "short": "INTERFACE AUDIO USB BEHRINGER U-PHORIA UMC202HD",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Interface_de_Áudio_USB",
+      "url": "https://pt.wikiversity.org/wiki/Interface_de_Áudio_USB_UMC202HD",
       "value": 940.0
     },
     "I31": {
@@ -262,7 +262,7 @@
       "name": "FONE DE OUVIDO AKG K92 PROFISSIONAL PRETO E DOURADO 64726",
       "short": "FONE DE OUVIDO AKG K92 PROFISSIONAL PRETO E DOURADO 64726",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Fone_de_Ouvido",
+      "url": "https://pt.wikiversity.org/wiki/Fone_de_Ouvido_AKG_K92",
       "value": 315.68
     },
     "I32": {
@@ -270,7 +270,7 @@
       "name": "MONITOR DE REFERENCIA 24W PRETO",
       "short": "MONITOR DE REFERENCIA 24W PRETO",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Monitor_de_Áudio",
+      "url": "https://pt.wikiversity.org/wiki/Monitor_de_Áudio_24W",
       "value": 673.0
     },
     "I33": {
@@ -278,7 +278,7 @@
       "name": "MAQUINA FOTOGRAFICA CANON INDUSTRIA CANON EOS REBEL KIT",
       "short": "MAQUINA FOTOGRAFICA CANON INDUSTRIA CANON EOS REBEL KIT",
       "category": "Audiovisual e Produção de Mídia",
-      "url": "https://pt.wikiversity.org/wiki/Câmera_Fotográfica_Digital",
+      "url": "https://pt.wikiversity.org/wiki/Câmera_Fotográfica_Digital_DSLR_Canon_EOS_Rebel",
       "value": 3501.62
     },
     "I34": {
@@ -286,7 +286,7 @@
       "name": "IMPRESSORA 3D - A1 COMBO BAMBU LAB",
       "short": "IMPRESSORA 3D - A1 COMBO BAMBU LAB",
       "category": "Fabricação Digital",
-      "url": "https://pt.wikiversity.org/wiki/Impressora_3D",
+      "url": "https://pt.wikiversity.org/wiki/Impressora_3D_A1_Combo_Bambu_Lab",
       "value": 4373.1
     },
     "I35": {
@@ -294,7 +294,7 @@
       "name": "IMPRESSORA 3D - A1 COMBO BAMBU LAB",
       "short": "IMPRESSORA 3D - A1 COMBO BAMBU LAB",
       "category": "Fabricação Digital",
-      "url": "https://pt.wikiversity.org/wiki/Impressora_3D",
+      "url": "https://pt.wikiversity.org/wiki/Impressora_3D_A1_Combo_Bambu_Lab",
       "value": 4769.1
     },
     "I36": {
@@ -302,7 +302,7 @@
       "name": "MAQUINA CNC - GRAVAÇÃO A LASER - CR FALCON A1 10W - CREALITY",
       "short": "MAQUINA CNC - GRAVAÇÃO A LASER - CR FALCON A1 10W - CREALITY",
       "category": "Fabricação Digital",
-      "url": "https://pt.wikiversity.org/wiki/Gravadora_Laser_CNC",
+      "url": "https://pt.wikiversity.org/wiki/Gravadora_Laser_CNC_Falcon_A1_10W_Creality",
       "value": 4398.0
     },
     "I37": {
@@ -310,7 +310,7 @@
       "name": "SILHOUETTE CAMEO 5 BRANCA",
       "short": "SILHOUETTE CAMEO 5 BRANCA",
       "category": "Fabricação Digital",
-      "url": "https://pt.wikiversity.org/wiki/Plotter_de_Recorte",
+      "url": "https://pt.wikiversity.org/wiki/Plotter_de_Recorte_Silhouette_Cameo_5",
       "value": 2899.0
     },
     "I38": {
@@ -318,7 +318,7 @@
       "name": "IMPRESSORA JATO DE TINTA MULTIFUNCIONAL ECOTANK L3250 EPSON",
       "short": "IMPRESSORA JATO DE TINTA MULTIFUNCIONAL ECOTANK L3250 EPSON",
       "category": "Fabricação Digital",
-      "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional",
+      "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional_L3250_Epson",
       "value": 1046.63
     },
     "I39": {
@@ -326,7 +326,7 @@
       "name": "IMPRESSORA MULTIFUNCIONAL EPSON L3250 ECOTANK",
       "short": "IMPRESSORA MULTIFUNCIONAL EPSON L3250 ECOTANK",
       "category": "Fabricação Digital",
-      "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional",
+      "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional_L3250_Epson",
       "value": 1078.78
     },
     "I40": {
@@ -334,7 +334,7 @@
       "name": "IMPRESSORA MULTIFUNCIONAL EPSON ECOTANK L14150 JATO DE TINTA COLORIDA COM USB E WI-FI",
       "short": "IMPRESSORA MULTIFUNCIONAL EPSON ECOTANK L14150 JATO DE TINTA COLORIDA COM USB E WI-FI",
       "category": "Fabricação Digital",
-      "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional",
+      "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional_L14150_Epson",
       "value": 4269.0
     },
     "I41": {
@@ -358,7 +358,7 @@
       "name": "MAQUINA DE COSTURA HD6805C",
       "short": "MAQUINA DE COSTURA HD6805C",
       "category": "Costura Eletrônica e Têxteis",
-      "url": "https://pt.wikiversity.org/wiki/Máquina_de_Costura",
+      "url": "https://pt.wikiversity.org/wiki/Máquina_de_Costura_HD6805C",
       "value": 3200.42
     },
     "I44": {
@@ -414,7 +414,7 @@
       "name": "MLG-70 MORSA GIRATORIA LYNUS 70MM",
       "short": "MLG-70 MORSA GIRATORIA LYNUS 70MM",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Morsa_de_Bancada",
+      "url": "https://pt.wikiversity.org/wiki/Morsa_de_Bancada_Giratoria_70mm",
       "value": 115.0
     },
     "I51": {
@@ -422,7 +422,7 @@
       "name": "SERRA CIRCULAR 7.1/4 POL 1600W HS7010 MAKITA",
       "short": "SERRA CIRCULAR 7.1/4 POL 1600W HS7010 MAKITA",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Serra_Circular",
+      "url": "https://pt.wikiversity.org/wiki/Serra_Circular_1600W_HS7010_Makita",
       "value": 580.11
     },
     "I52": {
@@ -430,7 +430,7 @@
       "name": "MICROSCOPIO DIGITAL ASAWAKA LE2071 TELA GRANDE",
       "short": "MICROSCOPIO DIGITAL ASAWAKA LE2071 TELA GRANDE",
       "category": "Sensores Avançados e Instrumentação Científica",
-      "url": "https://pt.wikiversity.org/wiki/Microscópio_Digital",
+      "url": "https://pt.wikiversity.org/wiki/Microscópio_Digital_LE2071_Asawaka",
       "value": 437.8
     },
     "I53": {
@@ -438,7 +438,7 @@
       "name": "MICROSCOPIO BIOLOGICO TRINOCULAR 116T ACESSÓRIO CAMERA DIGITAL CMOS HDMI/USB 16MP",
       "short": "MICROSCOPIO BIOLOGICO TRINOCULAR 116T ACESSÓRIO CAMERA DIGITAL CMOS HDMI/USB 16MP",
       "category": "Sensores Avançados e Instrumentação Científica",
-      "url": "https://pt.wikiversity.org/wiki/Microscópio_Biológico",
+      "url": "https://pt.wikiversity.org/wiki/Microscópio_Biológico_com_Câmera_Digital_16MP",
       "value": 2290.0
     },
     "I54": {
@@ -454,7 +454,7 @@
       "name": "CARREGADOR DE PILHA 8 SLOTS PRETO",
       "short": "CARREGADOR DE PILHA 8 SLOTS PRETO",
       "category": "Robótica e Eletrônica Básica",
-      "url": "https://pt.wikiversity.org/wiki/Carregador_de_Pilhas",
+      "url": "https://pt.wikiversity.org/wiki/Carregador_de_Pilhas_8_Slots",
       "value": 96.02
     },
     "I56": {
@@ -462,7 +462,7 @@
       "name": "FONTE DE ALIMENTAÇÃO 2 A MIKEN YAXUN YIHUA",
       "short": "FONTE DE ALIMENTAÇÃO 2 A MIKEN YAXUN YIHUA",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada",
+      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_Yaxun",
       "value": 210.0
     },
     "I57": {
@@ -470,7 +470,7 @@
       "name": "FONTE DE BANCADA YAXUN 1502DD+ 110V OU 220V",
       "short": "FONTE DE BANCADA YAXUN 1502DD+ 110V OU 220V",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada",
+      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_Yaxun",
       "value": 218.49
     },
     "I58": {
@@ -478,7 +478,7 @@
       "name": "FONTE DE ALIMENTÇÃO DIGITAL 1502DD+",
       "short": "FONTE DE ALIMENTÇÃO DIGITAL 1502DD+",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada",
+      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_Yaxun",
       "value": 199.0
     },
     "I59": {
@@ -486,7 +486,7 @@
       "name": "FONTE BANCADA ASSIMETRICA DIGITAL YAXUN 1502DD+",
       "short": "FONTE BANCADA ASSIMETRICA DIGITAL YAXUN 1502DD+",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada",
+      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_Yaxun",
       "value": 212.0
     },
     "I60": {
@@ -494,7 +494,7 @@
       "name": "FONTE DE ALIMENTAÇÃO DIGITAL BANCADA 32V 5A AFR FA3005M",
       "short": "FONTE DE ALIMENTAÇÃO DIGITAL BANCADA 32V 5A AFR FA3005M",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada",
+      "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_AFR",
       "value": 444.35
     },
     "I61": {
@@ -502,7 +502,7 @@
       "name": "OSCILOSCOPIOS DSO-510",
       "short": "OSCILOSCOPIOS DSO-510",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Osciloscópio",
+      "url": "https://pt.wikiversity.org/wiki/Osciloscópio_DSO-510",
       "value": 257.4
     },
     "I62": {
@@ -510,7 +510,7 @@
       "name": "OSCILOSCOPIOS DSO-510",
       "short": "OSCILOSCOPIOS DSO-510",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Osciloscópio",
+      "url": "https://pt.wikiversity.org/wiki/Osciloscópio_DSO-510",
       "value": 315.51
     },
     "I63": {
@@ -518,7 +518,7 @@
       "name": "MULTIMETRO DIGITAL HM-1550 HIKARI HM 1550",
       "short": "MULTIMETRO DIGITAL HM-1550 HIKARI HM 1550",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Multímetro_Digital",
+      "url": "https://pt.wikiversity.org/wiki/Multímetro_Digital_HM-1550_HIKARI",
       "value": 115.35
     },
     "I64": {
@@ -526,7 +526,7 @@
       "name": "FNIRSI LCRP1 TESTADOR DE TRANSITOR DIODO TRIODO CAPACITÂNCIA RESISTÊNCIA MEDIDOR LCR ESR",
       "short": "FNIRSI LCRP1 TESTADOR DE TRANSITOR DIODO TRIODO CAPACITÂNCIA RESISTÊNCIA MEDIDOR LCR ESR",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Testador_de_Componentes_Eletrônicos",
+      "url": "https://pt.wikiversity.org/wiki/Testador_de_Componentes_Eletrônicos_LCRP1_FNIRSI",
       "value": 246.14
     },
     "I65": {
@@ -534,7 +534,7 @@
       "name": "MULTIMETRO ANALOGICO PROFISSIONAL",
       "short": "MULTIMETRO ANALOGICO PROFISSIONAL",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico",
+      "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico_YX_360",
       "value": 54.9
     },
     "I66": {
@@ -542,7 +542,7 @@
       "name": "MULTIMETRO ANALOGICO",
       "short": "MULTIMETRO ANALOGICO",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico",
+      "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico_YX_360",
       "value": 38.76
     },
     "I67": {
@@ -550,7 +550,7 @@
       "name": "MULTIMETRO ANALOGICO PCI-360 10 MEGAS PROFISSIONAL EMBORRACHADO",
       "short": "MULTIMETRO ANALOGICO PCI-360 10 MEGAS PROFISSIONAL EMBORRACHADO",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico",
+      "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico_YX_360",
       "value": 38.76
     },
     "I68": {
@@ -558,7 +558,7 @@
       "name": "MULTIMETRO ANALOGICO PCI-360 10 MEGAS PROFISSIONAL EMBORRACHADO",
       "short": "MULTIMETRO ANALOGICO PCI-360 10 MEGAS PROFISSIONAL EMBORRACHADO",
       "category": "Ferramentas Manuais e Manutenção",
-      "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico",
+      "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico_YX_360",
       "value": 42.04
     },
     "I69": {
@@ -566,7 +566,7 @@
       "name": "BALANÇA COMERCIAL DIGITAL 40KG ALTA PRECISÃO BATERIA BIVOLT COR BRANCO",
       "short": "BALANÇA COMERCIAL DIGITAL 40KG ALTA PRECISÃO BATERIA BIVOLT COR BRANCO",
       "category": "Sensores Avançados e Instrumentação Científica",
-      "url": "https://pt.wikiversity.org/wiki/Balança_Digital",
+      "url": "https://pt.wikiversity.org/wiki/Balança_Digital_40KG",
       "value": 186.0
     }
   }
