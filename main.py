@@ -55,9 +55,11 @@ from kivy.uix.screenmanager import ScreenManager, Screen, SlideTransition
 from kivy.uix.textinput import TextInput
 
 from boxes import (ITEMS, SCHOOLS, SCHEME, box_by_code, valid_school,
-                   school_name, categories, items_in_category)
+                   school_name, categories, items_in_category,
+                   resource_by_tombamento)
 from db import TagDatabase
 from nfc_reader import get_nfc, is_mock
+import qr_scanner
 import env_config
 
 DEBOUNCE_SECONDS = 1.2  # ignora releituras do mesmo UID neste intervalo
@@ -273,11 +275,15 @@ class WaitScreen(Screen):
         root.add_widget(center)
 
         bottom = BoxLayout(orientation="vertical", size_hint_y=None,
-                           height=dp(118), padding=(dp(16), dp(6)),
+                           height=dp(178), padding=(dp(16), dp(6)),
                            spacing=dp(8))
         self.menu_btn = FlatButton("MENU", bg=NAVY, height=58, font_size="18sp")
         self.menu_btn.bind(on_release=lambda *_: self.app.go("menu"))
         bottom.add_widget(self.menu_btn)
+        self.qr_btn = FlatButton("Ler QR de tombamento", bg=ACCENT,
+                                 height=48, font_size="15sp")
+        self.qr_btn.bind(on_release=lambda *_: self.app.scan_tombamento())
+        bottom.add_widget(self.qr_btn)
         self.mode_bar = FlatButton("", bg=LIGHT, fg=(0.3, 0.3, 0.3, 1),
                                    height=44, font_size="14sp")
         self.mode_bar.bind(on_release=lambda *_: self.app.toggle_mode())
@@ -444,6 +450,16 @@ class InfoScreen(Screen):
     def show(self, box_code, school, uid, registro, ndef=None, foreign=False):
         self._data = ("item", box_code, school, uid, registro, ndef, foreign)
 
+    def show_qr(self, numero, resolved):
+        """
+        `resolved` e (item_code, school_code) se o numero de tombamento
+        estiver cadastrado na aba Tombamentos, ou None se nao for
+        encontrado. Modo QR e sempre SO LEITURA — a etiqueta fisica ja
+        existe no equipamento; nao ha "cadastrar/regravar" pelo aparelho,
+        so pela planilha central.
+        """
+        self._data = ("qr", numero, resolved)
+
     def on_pre_enter(self, *_):
         self.build()
 
@@ -494,6 +510,49 @@ class InfoScreen(Screen):
                     "[color=666666][size=13sp]Esta etiqueta ainda nao foi "
                     "cadastrada. Para cadastra-la, mude para o modo "
                     "Preparacao no menu.[/size][/color]", height=54))
+        elif kind == "qr":
+            _, numero, resolved = self._data
+            if resolved is None:
+                b.add_widget(title_label(
+                    "[color=CC3300][b]Tombamento nao cadastrado[/b][/color]",
+                    size="18sp", height=32))
+                b.add_widget(title_label(
+                    "[color=666666]numero: %s[/color]" % numero,
+                    size="14sp", height=24))
+                b.add_widget(title_label(
+                    "[color=666666][size=13sp]Este numero nao esta na "
+                    "planilha de tombamentos. Para cadastra-lo, adicione "
+                    "uma linha na aba Tombamentos e gere um novo "
+                    "dados.json — nao da para corrigir pelo "
+                    "aparelho.[/size][/color]", height=70))
+            else:
+                item_code, school_code = resolved
+                box = box_by_code(item_code)
+                if box is None:
+                    b.add_widget(title_label(
+                        "[color=CC3300][b]Item do tombamento nao "
+                        "encontrado[/b][/color]", size="18sp", height=32))
+                    b.add_widget(title_label(
+                        "[color=666666]codigo: %s[/color]" % item_code,
+                        size="14sp", height=24))
+                else:
+                    b.add_widget(title_label("[b]%s[/b]" % box["name"],
+                                             size="18sp", height=34,
+                                             color=ACCENT))
+                    b.add_widget(title_label(
+                        "[color=666666]%s (%s)[/color]"
+                        % (school_name(school_code), school_code),
+                        size="14sp", height=26))
+                    if self.app.mode == "uso" and box.get("url"):
+                        openbtn = FlatButton("Ver guia na Wikiversidade",
+                                            bg=ACCENT, height=52,
+                                            font_size="14sp")
+                        openbtn.bind(on_release=lambda *_:
+                                    self.app.open_guide(box["url"]))
+                        b.add_widget(openbtn)
+                b.add_widget(title_label(
+                    "[color=666666][size=12sp]Tombamento: %s[/size][/color]"
+                    % numero, height=20))
         else:
             _, box_code, school, uid, registro, ndef, foreign = self._data
             box = box_by_code(box_code)
@@ -802,6 +861,7 @@ class LabTagApp(App):
 
         self.db = TagDatabase()
         self.nfc = get_nfc()
+        self.scanner = qr_scanner.get_scanner()
         self.school = self.db.get_setting("school")
         if self.school and not valid_school(self.school):
             _log("aviso: escola salva '%s' nao existe mais - limpando" % self.school)
@@ -859,6 +919,11 @@ class LabTagApp(App):
         except Exception as exc:
             _log("NFC start FALHOU: %s" % exc)
             self.screens["espera"].instr.text = "NFC indisponivel:\n%s" % exc
+        try:
+            self.scanner.start(self.on_qr_result)
+            _log("scanner QR start OK")
+        except Exception as exc:
+            _log("scanner QR start FALHOU: %s" % exc)
 
     def on_resume(self):
         try:
@@ -878,7 +943,34 @@ class LabTagApp(App):
             self.nfc.stop()
         except Exception:
             pass
+        try:
+            self.scanner.stop()
+        except Exception:
+            pass
         self.db.close()
+
+    # ---------------------------------------------------------- QR / tombamento
+    def scan_tombamento(self):
+        """Chamado pelo botao 'Ler QR de tombamento'. Dispara o Intent do
+        scanner externo; o resultado chega depois, de forma assincrona,
+        em on_qr_result."""
+        _log("scan_tombamento: disparando scan")
+        try:
+            self.scanner.scan()
+        except Exception as exc:
+            _log("scan_tombamento: falhou: %s" % exc)
+
+    @mainthread
+    def on_qr_result(self, value):
+        _log("on_qr_result: valor=%r" % value)
+        if not value:
+            # Cancelado pelo usuario, ou nenhum app scanner respondeu ao
+            # Intent — nao ha nada de util a mostrar; so volta a espera.
+            return
+        numero = value.strip()
+        resolved = resource_by_tombamento(numero)
+        self.screens["info"].show_qr(numero, resolved)
+        self.go("info")
 
     # ---------------------------------------------------------- leitura
     @mainthread
@@ -1093,6 +1185,18 @@ class LabTagApp(App):
         bar.add_widget(b1)
         bar.add_widget(b2)
         wrap.add_widget(bar)
+
+        bar2 = BoxLayout(size_hint_y=None, height=dp(46), spacing=dp(6),
+                         padding=(dp(6), dp(4)))
+        b3 = FlatButton("QR cadastrado", bg=LIGHT, fg=(0.2, 0.2, 0.2, 1),
+                        height=38, font_size="12sp")
+        b3.bind(on_release=lambda *_: self._sim_qr_known())
+        b4 = FlatButton("QR desconhecido", bg=LIGHT, fg=(0.2, 0.2, 0.2, 1),
+                        height=38, font_size="12sp")
+        b4.bind(on_release=lambda *_: self._sim_qr_unknown())
+        bar2.add_widget(b3)
+        bar2.add_widget(b4)
+        wrap.add_widget(bar2)
         return wrap
 
     def _sim_blank(self):
@@ -1104,6 +1208,16 @@ class LabTagApp(App):
         uid = getattr(self, "_last_mock", None)
         if uid:
             self.nfc.simulate_tag(uid, blank=False)
+
+    def _sim_qr_known(self):
+        # usa o primeiro numero de tombamento realmente cadastrado em
+        # dados.json, se houver algum — assim o teste reflete dados reais.
+        from boxes import TOMBAMENTOS
+        numero = next(iter(TOMBAMENTOS.keys()), "123456")
+        self.scanner.simulate_scan(numero)
+
+    def _sim_qr_unknown(self):
+        self.scanner.simulate_scan("000000-nao-cadastrado")
 
 
 if __name__ == "__main__":

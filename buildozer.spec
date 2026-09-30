@@ -1,33 +1,47 @@
 [app]
 
 # Identificação do app
-title = REDEMAIS Etiquetas
+# "title" é o nome exibido sob o ícone no Android — a marca do app é LabTag.
+# package.name/package.domain NÃO foram alterados de propósito: são o
+# identificador interno do Android (application ID). Mudá-los faria o
+# Android tratar qualquer atualização como um app NOVO e diferente do já
+# instalado nos aparelhos de teste — quem já tem o app instalado não
+# receberia a atualização, teria os dois lado a lado. Se quiser mesmo
+# renomear o identificador interno, avise: é uma decisão consciente, não
+# um esquecimento.
+title = LabTag
 package.name = redemaisetiquetas
 package.domain = br.unb.redemaisdf
 
 # Código-fonte
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas,json,xml
+source.include_exts = py,png,jpg,kv,atlas,json,xml,env
 
-# O arquivo ".env" e um "dotfile" sem extensao reconhecivel pelo filtro
-# acima (Python trata ".env" como nome sem extensao, nao como extensao
-# "env"), entao precisa ser incluido explicitamente aqui para ir junto no
-# APK. Sem isto, o app cairia no valor padrao inseguro em tempo de execucao.
+# A senha do modo Preparacao (e qualquer outro segredo futuro) vai em
+# "secrets.json" (nao commitado — ver .gitignore), NAO em ".env". Testamos
+# na pratica: um dotfile ".env" e uma copia "app.env" (extensao "env", que
+# esta na lista acima) NAO apareceram dentro do assets/private.tar do APK
+# gerado (conferido com "unzip -p bin/*.apk assets/private.tar | tar -t").
+# Ja "dados.json" (extensao "json") sempre chegou certinho — entao usamos
+# esse mesmo caminho, comprovadamente confiavel neste pipeline, para o
+# segredo tambem. Veja secrets.json.example para o formato. env_config.py
+# ainda tenta ".env" e "app.env" como fallback, mas nao dependa deles.
 source.include_patterns = .env
 
 version = 1.0
 
 # --- Splash (tela exibida ao abrir o app, antes do Python carregar) ---------
 # Imagem: logos REDE+CIÊNCIA / UnB + "App LABTAG" / MEC-CNPq-FNDCT-Brasil.
-# O arquivo splash.png deve ficar na raiz do projeto (junto do main.py).
+# Esta é a splash NATIVA do Android — a identificação do PROJETO guarda-chuva,
+# não do app em si (o app tem sua própria segunda splash, em main.py, com a
+# marca LabTag). O arquivo splash.png deve ficar na raiz do projeto.
 presplash.filename = %(source.dir)s/splash.png
 # Fundo branco, para casar com o fundo branco da própria imagem.
 android.presplash_color = #FFFFFF
-# OBS.: não usamos esta imagem como icon.filename — ela tem muito texto e
-# vários logos lado a lado, o que fica ilegível reduzido ao tamanho de ícone
-# (48x48 a 192x192 px). Para o ícone do app, vale criar uma versão quadrada
-# simplificada (ex.: só o símbolo, sem o texto "App LABTAG") e apontar aqui:
-#   icon.filename = %(source.dir)s/icon.png
+
+# Ícone do app: a marca LabTag (etiqueta + ondas de NFC) sobre fundo navy,
+# em versão quadrada simplificada (sem texto, legível mesmo pequeno).
+icon.filename = %(source.dir)s/icon_labtag.png
 
 # Dependências Python empacotadas no APK.
 requirements = python3,kivy,pyjnius
@@ -54,6 +68,15 @@ android.manifest_intent_filters = %(source.dir)s/intent_filters.xml
 # OBS.: NÃO use "android.features" com p4a v2024.01.21 — essa release do
 # toolchain não reconhece a opção --feature e o build falha. A exigência de
 # hardware NFC na Play Store pode ser adicionada depois, por outro caminho.
+
+# Modo QR/tombamento (leitura de etiquetas de patrimônio já existentes):
+# NÃO precisa de permissão CAMERA nem de nenhuma dependência nova aqui —
+# o app delega a leitura para um app scanner EXTERNO via Intent (ver
+# qr_scanner.py), em vez de embutir câmera/decodificador de QR no próprio
+# LabTag. Decisão deliberada: qualquer dependência nativa nova neste
+# pipeline (p4a fixado, Gradle antigo, JDK sensível) já se mostrou uma
+# fonte recorrente de instabilidade de build — o Intent externo evita
+# esse risco por completo.
 
 # API levels (ajuste conforme o toolchain instalado).
 android.api = 33

@@ -5,15 +5,21 @@ Este modulo NAO contem dados embutidos. Ele le o arquivo 'dados.json', que e
 gerado a partir da planilha Excel pelo conversor 'planilha_para_dados.py'.
 
 Fluxo de manutencao:
-    1. Voce edita a planilha Cadastro_Escolas_e_Itens.xlsx (escolas e itens).
+    1. Voce edita a planilha Cadastro_Escolas_e_Itens.xlsx (escolas, itens
+       e tombamentos).
     2. Roda:  python planilha_para_dados.py Cadastro_Escolas_e_Itens.xlsx
        -> gera dados.json
     3. dados.json vai junto com o app (mesma pasta do main.py) no APK.
 
-O app le dados.json em tempo de execucao. Assim, mudar escolas/itens nunca
-exige mexer no codigo.
+O app le dados.json em tempo de execucao. Assim, mudar escolas/itens/
+tombamentos nunca exige mexer no codigo.
 
-Formato gravado na etiqueta:  REDEMAISDF|<codigo_item>|<codigo_escola>
+Formato gravado na etiqueta NFC:  REDEMAISDF|<codigo_item>|<codigo_escola>
+
+Modo QR/tombamento: numeros de tombamento sao OPACOS (nao decodificaveis por
+formula) — cada numero ja esta gravado numa etiqueta fisica colada no
+equipamento, e a planilha (aba "Tombamentos") e quem diz a qual item e
+escola cada numero pertence. Ver qr_scanner.py para a leitura do QR.
 """
 
 import json
@@ -46,10 +52,11 @@ def _carregar():
             dados = json.load(f)
     except Exception as exc:
         print("Erro ao ler dados.json (%s): %s" % (caminho, exc))
-        dados = {"escolas": {}, "itens": {}}
+        dados = {"escolas": {}, "itens": {}, "tombamentos": {}}
 
     escolas = dados.get("escolas", {})
     itens_raw = dados.get("itens", {})
+    tombamentos_raw = dados.get("tombamentos", {})
 
     # completa itens com campos derivados (cor por categoria) sem exigir
     # que estejam no JSON.
@@ -66,12 +73,22 @@ def _carregar():
             "category": cat,
             "url": it.get("url", ""),
             "color": it.get("color") or cat_color[cat],
+            "value": it.get("value", 0.0),
         }
-    return escolas, itens
+
+    # tombamentos: numero (string) -> {"item": codigo_item, "escola": codigo_escola}
+    tombamentos = {}
+    for numero, info in tombamentos_raw.items():
+        tombamentos[str(numero)] = {
+            "item": info.get("item", ""),
+            "escola": info.get("escola", ""),
+        }
+
+    return escolas, itens, tombamentos
 
 
 # --------------------------------------------------------------- carga inicial
-SCHOOL_NAMES, ITEMS = _carregar()
+SCHOOL_NAMES, ITEMS, TOMBAMENTOS = _carregar()
 SCHOOLS = list(SCHOOL_NAMES.keys())
 
 # compatibilidade retro (o app ainda usa BOXES/box_by_code em alguns pontos)
@@ -80,8 +97,8 @@ BOXES = ITEMS
 
 def recarregar():
     """Recarrega dados.json em tempo de execucao (apos atualizar o arquivo)."""
-    global SCHOOL_NAMES, ITEMS, SCHOOLS, BOXES
-    SCHOOL_NAMES, ITEMS = _carregar()
+    global SCHOOL_NAMES, ITEMS, TOMBAMENTOS, SCHOOLS, BOXES
+    SCHOOL_NAMES, ITEMS, TOMBAMENTOS = _carregar()
     SCHOOLS = list(SCHOOL_NAMES.keys())
     BOXES = ITEMS
 
@@ -116,3 +133,24 @@ def categories():
 def items_in_category(cat):
     return [(c, it) for c, it in ITEMS.items()
             if it.get("category", "Outros") == cat]
+
+
+# --------------------------------------------------------------- tombamentos
+def resource_by_tombamento(numero):
+    """
+    Dado um numero de tombamento (string lida do QR), devolve
+    (item_code, school_code) se estiver cadastrado, ou None caso contrario.
+
+    Nao tenta decodificar o numero — e so uma consulta na tabela carregada
+    de dados.json (aba "Tombamentos" da planilha).
+    """
+    info = TOMBAMENTOS.get(str(numero).strip())
+    if info is None:
+        return None
+    item_code = info.get("item", "")
+    school_code = info.get("escola", "")
+    if not item_by_code(item_code) or not valid_school(school_code):
+        # dados.json pode estar desatualizado em relacao a itens/escolas
+        # (ex.: item foi removido depois que o tombamento foi cadastrado).
+        return None
+    return (item_code, school_code)

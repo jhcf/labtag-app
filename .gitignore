@@ -2,6 +2,8 @@
 .env
 app.env
 secrets.json
+.~lock.*#
+res/
 
 # Chave de assinatura do APK de release e arquivos de senha associados —
 # nunca commitar. Sem o .keystore original, nao da para publicar
