@@ -1,7 +1,7 @@
 # LabTag — Cadastro e Leitura de Etiquetas RFID das Caixas
 
 App Kivy (nome do app: **LabTag**) que gerencia as etiquetas RFID/NFC das
-caixas e itens do Kit de Robótica e Eletrônica do projeto REDEMAISCIENCIADF.
+dos recursos do projeto REDEMAISCIENCIADF.
 
 > **Nota:** este README descreve o comportamento geral do app; algumas seções
 > (fluxo de gravação, telas, senha do modo Preparação) foram bastante
@@ -23,7 +23,7 @@ para criar sua própria configuração local antes de rodar o app.
 
 ## O que o app faz
 
-Ao aproximar uma etiqueta do aparelho:
+Ao aproximar uma etiqueta do smartphone:
 
 1. **Etiqueta em branco** → o app pede para escolher a categoria e o item
    (caixa do kit ou equipamento — veja `boxes.py`/`dados.json`), **grava essa
@@ -92,6 +92,9 @@ compilar nada) e para editar o conteúdo (itens/escolas).
 ### 1. Ambiente Python
 
 ```bash
+cd labtag-app/
+/usr/bin/python3 -m venv .venv
+source .venv/bin/activate
 python3 -m venv .venv
 source .venv/bin/activate
 pip install kivy
@@ -137,7 +140,13 @@ tombamento referencia um item/escola inexistente ou está duplicada.
 ### 4. Rodar no desktop (modo simulação)
 
 ```bash
-python main.py
+pip install --upgrade pip buildozer cython==0.29.34
+PATH="$(echo "$PATH" | tr ':' '\n' | grep -v '\.pyenv' | paste -sd:)"
+sudo apt install -y git zip unzip openjdk-17-jdk autoconf libtool pkg-config   zlib1g-dev libncurses-dev libtinfo6 cmake libffi-dev libssl-dev build-essential ccache
+pip install legacy-cgi setuptools
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+export PATH="$JAVA_HOME/bin:$PATH"
+buildozer -v android debug
 ```
 
 Sem celular, o app usa backends simulados de NFC (`MockNFC`) e de QR
