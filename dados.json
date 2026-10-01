@@ -17,552 +17,552 @@
     "E15": "CEF 26 DE CEILANDIA"
   },
   "itens": {
-    "I01": {
-      "code": "I01",
+    "I0001": {
+      "code": "I0001",
       "name": "CX#1 - Componentes Eletrônicos",
       "short": "CX#1 - Componentes Eletrônicos",
       "category": "Caixa do kit",
       "url": "https://pt.wikiversity.org/wiki/Kit_de_Robótica_e_Eletrônica_Básica_Caixa_1",
       "value": 0.0
     },
-    "I02": {
-      "code": "I02",
+    "I0002": {
+      "code": "I0002",
       "name": "CX#2 - Resistores",
       "short": "CX#2 - Resistores",
       "category": "Caixa do kit",
       "url": "https://pt.wikiversity.org/wiki/Kit_de_Robótica_e_Eletrônica_Básica_Caixa_2",
       "value": 0.0
     },
-    "I03": {
-      "code": "I03",
+    "I0003": {
+      "code": "I0003",
       "name": "CX#3 - Ferramentas, Energia e Montagem",
       "short": "CX#3 - Ferramentas, Energia e Montagem",
       "category": "Caixa do kit",
       "url": "https://pt.wikiversity.org/wiki/Kit_de_Robótica_e_Eletrônica_Básica_Caixa_3",
       "value": 0.0
     },
-    "I04": {
-      "code": "I04",
+    "I0004": {
+      "code": "I0004",
       "name": "Multímetro Digital DT830b",
       "short": "Multímetro Digital DT830b",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Multímetro_Digital_DT830b",
       "value": 0.0
     },
-    "I05": {
-      "code": "I05",
+    "I0005": {
+      "code": "I0005",
       "name": "BANCADA FECHADA CHAVEADA TAMPO COMPENSADO 200X60X92 207 CDF FERCAR",
       "short": "BANCADA FECHADA CHAVEADA TAMPO COMPENSADO 200X60X92 207 CDF FERCAR",
       "category": "Infraestrutura e Mobiliário",
       "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho_2000mm_Fechada_Chaveada",
       "value": 2656.26
     },
-    "I06": {
-      "code": "I06",
+    "I0006": {
+      "code": "I0006",
       "name": "MESA TAMPO BANCADA MOVEL GABINETE MAQUINA COSTURA DOMESTICA",
       "short": "MESA TAMPO BANCADA MOVEL GABINETE MAQUINA COSTURA DOMESTICA",
       "category": "Infraestrutura e Mobiliário",
       "url": "https://pt.wikiversity.org/wiki/Mesa_para_Máquina_de_Costura",
       "value": 287.46
     },
-    "I07": {
-      "code": "I07",
+    "I0007": {
+      "code": "I0007",
       "name": "MESA BANCADA TAMPO AÇO INOX 70X70 ESTRUTURA BRANCA ITAJOBI",
       "short": "MESA BANCADA TAMPO AÇO INOX 70X70 ESTRUTURA BRANCA ITAJOBI",
       "category": "Infraestrutura e Mobiliário",
       "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho_Inox_700x700mm",
       "value": 555.0
     },
-    "I08": {
-      "code": "I08",
+    "I0008": {
+      "code": "I0008",
       "name": "ARMARIO COM 4 GAVETAS E DIV INTERNA",
       "short": "ARMARIO COM 4 GAVETAS E DIV INTERNA",
       "category": "Infraestrutura e Mobiliário",
       "url": "https://pt.wikiversity.org/wiki/Armário_para_Materiais_4_Gavetas_Divisórias_Internas",
       "value": 1142.68
     },
-    "I09": {
-      "code": "I09",
+    "I0009": {
+      "code": "I0009",
       "name": "PORTA CHAVES CLAVICULARIO PARA 48 CHAVES EM AÇO",
       "short": "PORTA CHAVES CLAVICULARIO PARA 48 CHAVES EM AÇO",
       "category": "Infraestrutura e Mobiliário",
       "url": "https://pt.wikiversity.org/wiki/Organizador_de_Chaves_48_Posicoes",
       "value": 67.89
     },
-    "I10": {
-      "code": "I10",
+    "I0010": {
+      "code": "I0010",
       "name": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "short": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Carrinho_Plástico_3_Bancadas",
       "value": 288.0
     },
-    "I11": {
-      "code": "I11",
+    "I0011": {
+      "code": "I0011",
       "name": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "short": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Carrinho_Plástico_3_Bancadas",
       "value": 299.41
     },
-    "I12": {
-      "code": "I12",
+    "I0012": {
+      "code": "I0012",
       "name": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "short": "CARRINHO PARA FERRAMENTAS - 3 BANCADAS - BCF300",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Carrinho_Plástico_3_Bancadas",
       "value": 299.27
     },
-    "I13": {
-      "code": "I13",
+    "I0013": {
+      "code": "I0013",
       "name": "SMART TV TV LG UHD AI UA75 55 HDR10",
       "short": "SMART TV TV LG UHD AI UA75 55 HDR10",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Smart_TV_55_Polegadas",
       "value": 2499.0
     },
-    "I14": {
-      "code": "I14",
+    "I0014": {
+      "code": "I0014",
       "name": "BANCADA PROFISSIONAL 200M 91508 PRESTO",
       "short": "BANCADA PROFISSIONAL 200M 91508 PRESTO",
       "category": "Infraestrutura e Mobiliário",
       "url": "https://pt.wikiversity.org/wiki/Bancada_de_Trabalho_2000mm",
       "value": 1241.68
     },
-    "I15": {
-      "code": "I15",
+    "I0015": {
+      "code": "I0015",
       "name": "SWITCH DE MESA 8 PORTAS GIGABIT TP-LINK TI/SG108 ETHERNET",
       "short": "SWITCH DE MESA 8 PORTAS GIGABIT TP-LINK TI/SG108 ETHERNET",
       "category": "Informática, Redes e Dispositivos Móveis",
       "url": "https://pt.wikiversity.org/wiki/Switch_de_Rede_8_Portas_Gigabit_TP-LINK_TI/SG108_ETHERNET",
       "value": 208.0
     },
-    "I16": {
-      "code": "I16",
+    "I0016": {
+      "code": "I0016",
       "name": "SWITCH GERENCIAVEL 8 PORTAS GIGABIT INTELIGENTE TI SG108E",
       "short": "SWITCH GERENCIAVEL 8 PORTAS GIGABIT INTELIGENTE TI SG108E",
       "category": "Informática, Redes e Dispositivos Móveis",
       "url": "https://pt.wikiversity.org/wiki/Switch_de_Rede_8_Portas_Gigabit_TP-LINK_TI/SG108_ETHERNET",
       "value": 249.0
     },
-    "I17": {
-      "code": "I17",
+    "I0017": {
+      "code": "I0017",
       "name": "SWITCH GERENCIAVEL EASY SMART GIGABIT DE 8 PORTAS TI-108E",
       "short": "SWITCH GERENCIAVEL EASY SMART GIGABIT DE 8 PORTAS TI-108E",
       "category": "Informática, Redes e Dispositivos Móveis",
       "url": "https://pt.wikiversity.org/wiki/Switch_de_Rede_8_Portas_Gigabit_TP-LINK_TI/SG108_ETHERNET",
       "value": 239.98
     },
-    "I18": {
-      "code": "I18",
+    "I0018": {
+      "code": "I0018",
       "name": "TABLET SAMSUNG A11 4GB 64GB",
       "short": "TABLET SAMSUNG A11 4GB 64GB",
       "category": "Informática, Redes e Dispositivos Móveis",
       "url": "https://pt.wikiversity.org/wiki/Tablet_Samsung_A11_4GB_64GB",
       "value": 950.0
     },
-    "I19": {
-      "code": "I19",
+    "I0019": {
+      "code": "I0019",
       "name": "TABLET A9 64GB 4GB RAM MODELO:SAMSUNG",
       "short": "TABLET A9 64GB 4GB RAM MODELO:SAMSUNG",
       "category": "Informática, Redes e Dispositivos Móveis",
       "url": "https://pt.wikiversity.org/wiki/Tablet_A9_4GB_64GB",
       "value": 796.0
     },
-    "I20": {
-      "code": "I20",
+    "I0020": {
+      "code": "I0020",
       "name": "XPPEN DECO FUN S MESA DIGITALIZADORA 8192",
       "short": "XPPEN DECO FUN S MESA DIGITALIZADORA 8192",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Mesa_Digitalizadora_8192",
       "value": 222.13
     },
-    "I21": {
-      "code": "I21",
+    "I0021": {
+      "code": "I0021",
       "name": "MESA DECO FUN S",
       "short": "MESA DECO FUN S",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Mesa_Digitalizadora_8192",
       "value": 231.31
     },
-    "I22": {
-      "code": "I22",
+    "I0022": {
+      "code": "I0022",
       "name": "MOTOROLA G565G 256GB",
       "short": "MOTOROLA G565G 256GB",
       "category": "Informática, Redes e Dispositivos Móveis",
       "url": "https://pt.wikiversity.org/wiki/Smartphone_Motorola_G565G_256GB",
       "value": 1394.0
     },
-    "I23": {
-      "code": "I23",
+    "I0023": {
+      "code": "I0023",
       "name": "CAMERA SPORT ACTION DE BOLSO HD 1 3 TELA LCD POCKET 360 PRETO",
       "short": "CAMERA SPORT ACTION DE BOLSO HD 1 3 TELA LCD POCKET 360 PRETO",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação_HD_1.3_Polegadas",
       "value": 394.0
     },
-    "I24": {
-      "code": "I24",
+    "I0024": {
+      "code": "I0024",
       "name": "CAMERA SPORT AÇÃO DE BOLSO 13MP TELA LCD POCKET 360",
       "short": "CAMERA SPORT AÇÃO DE BOLSO 13MP TELA LCD POCKET 360",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação_13_MP_Tela_LCD_Pocket_360",
       "value": 219.99
     },
-    "I25": {
-      "code": "I25",
+    "I0025": {
+      "code": "I0025",
       "name": "CAMERA SPORTIVA AKASO V50X 4K NTSC/PAL BLACK",
       "short": "CAMERA SPORTIVA AKASO V50X 4K NTSC/PAL BLACK",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Câmera_de_Ação_4K_NTSC_PAL",
       "value": 713.0
     },
-    "I26": {
-      "code": "I26",
+    "I0026": {
+      "code": "I0026",
       "name": "ESTABILIZADOR GIMBAL RH",
       "short": "ESTABILIZADOR GIMBAL RH",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Estabilizador_de_Câmera_Gimbal",
       "value": 314.9
     },
-    "I27": {
-      "code": "I27",
+    "I0027": {
+      "code": "I0027",
       "name": "MICROFONE AKG P120 CONDENSADOR DE DIAFRAGMA GRANDE",
       "short": "MICROFONE AKG P120 CONDENSADOR DE DIAFRAGMA GRANDE",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Microfone_Condensador_AKG_P120",
       "value": 799.0
     },
-    "I28": {
-      "code": "I28",
+    "I0028": {
+      "code": "I0028",
       "name": "MESA DE SOM BEHRINGER XENIX 1002SFX 10 CANAIS",
       "short": "MESA DE SOM BEHRINGER XENIX 1002SFX 10 CANAIS",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Mesa_de_Som_10_Canais",
       "value": 1030.0
     },
-    "I29": {
-      "code": "I29",
+    "I0029": {
+      "code": "I0029",
       "name": "MESA DE SOM BEHRINGER XENIX 1002SFX 10 CANAIS",
       "short": "MESA DE SOM BEHRINGER XENIX 1002SFX 10 CANAIS",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Mesa_de_Som_10_Canais",
       "value": 1014.0
     },
-    "I30": {
-      "code": "I30",
+    "I0030": {
+      "code": "I0030",
       "name": "INTERFACE AUDIO USB BEHRINGER U-PHORIA UMC202HD",
       "short": "INTERFACE AUDIO USB BEHRINGER U-PHORIA UMC202HD",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Interface_de_Áudio_USB_UMC202HD",
       "value": 940.0
     },
-    "I31": {
-      "code": "I31",
+    "I0031": {
+      "code": "I0031",
       "name": "FONE DE OUVIDO AKG K92 PROFISSIONAL PRETO E DOURADO 64726",
       "short": "FONE DE OUVIDO AKG K92 PROFISSIONAL PRETO E DOURADO 64726",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Fone_de_Ouvido_AKG_K92",
       "value": 315.68
     },
-    "I32": {
-      "code": "I32",
+    "I0032": {
+      "code": "I0032",
       "name": "MONITOR DE REFERENCIA 24W PRETO",
       "short": "MONITOR DE REFERENCIA 24W PRETO",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Monitor_de_Áudio_24W",
       "value": 673.0
     },
-    "I33": {
-      "code": "I33",
+    "I0033": {
+      "code": "I0033",
       "name": "MAQUINA FOTOGRAFICA CANON INDUSTRIA CANON EOS REBEL KIT",
       "short": "MAQUINA FOTOGRAFICA CANON INDUSTRIA CANON EOS REBEL KIT",
       "category": "Audiovisual e Produção de Mídia",
       "url": "https://pt.wikiversity.org/wiki/Câmera_Fotográfica_Digital_DSLR_Canon_EOS_Rebel",
       "value": 3501.62
     },
-    "I34": {
-      "code": "I34",
+    "I0034": {
+      "code": "I0034",
       "name": "IMPRESSORA 3D - A1 COMBO BAMBU LAB",
       "short": "IMPRESSORA 3D - A1 COMBO BAMBU LAB",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Impressora_3D_A1_Combo_Bambu_Lab",
       "value": 4373.1
     },
-    "I35": {
-      "code": "I35",
+    "I0035": {
+      "code": "I0035",
       "name": "IMPRESSORA 3D - A1 COMBO BAMBU LAB",
       "short": "IMPRESSORA 3D - A1 COMBO BAMBU LAB",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Impressora_3D_A1_Combo_Bambu_Lab",
       "value": 4769.1
     },
-    "I36": {
-      "code": "I36",
+    "I0036": {
+      "code": "I0036",
       "name": "MAQUINA CNC - GRAVAÇÃO A LASER - CR FALCON A1 10W - CREALITY",
       "short": "MAQUINA CNC - GRAVAÇÃO A LASER - CR FALCON A1 10W - CREALITY",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Gravadora_Laser_CNC_Falcon_A1_10W_Creality",
       "value": 4398.0
     },
-    "I37": {
-      "code": "I37",
+    "I0037": {
+      "code": "I0037",
       "name": "SILHOUETTE CAMEO 5 BRANCA",
       "short": "SILHOUETTE CAMEO 5 BRANCA",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Plotter_de_Recorte_Silhouette_Cameo_5",
       "value": 2899.0
     },
-    "I38": {
-      "code": "I38",
+    "I0038": {
+      "code": "I0038",
       "name": "IMPRESSORA JATO DE TINTA MULTIFUNCIONAL ECOTANK L3250 EPSON",
       "short": "IMPRESSORA JATO DE TINTA MULTIFUNCIONAL ECOTANK L3250 EPSON",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional_L3250_Epson",
       "value": 1046.63
     },
-    "I39": {
-      "code": "I39",
+    "I0039": {
+      "code": "I0039",
       "name": "IMPRESSORA MULTIFUNCIONAL EPSON L3250 ECOTANK",
       "short": "IMPRESSORA MULTIFUNCIONAL EPSON L3250 ECOTANK",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional_L3250_Epson",
       "value": 1078.78
     },
-    "I40": {
-      "code": "I40",
+    "I0040": {
+      "code": "I0040",
       "name": "IMPRESSORA MULTIFUNCIONAL EPSON ECOTANK L14150 JATO DE TINTA COLORIDA COM USB E WI-FI",
       "short": "IMPRESSORA MULTIFUNCIONAL EPSON ECOTANK L14150 JATO DE TINTA COLORIDA COM USB E WI-FI",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Impressora_Multifuncional_L14150_Epson",
       "value": 4269.0
     },
-    "I41": {
-      "code": "I41",
+    "I0041": {
+      "code": "I0041",
       "name": "PLASTIFICADORA LAMINADORA POLISELADORA",
       "short": "PLASTIFICADORA LAMINADORA POLISELADORA",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Plastificadora_de_Materiais_Didáticos",
       "value": 416.79
     },
-    "I42": {
-      "code": "I42",
+    "I0042": {
+      "code": "I0042",
       "name": "REFILADORA DE PAPEL PABER 4 EM 1",
       "short": "REFILADORA DE PAPEL PABER 4 EM 1",
       "category": "Fabricação Digital",
       "url": "https://pt.wikiversity.org/wiki/Refiladora_de_Papel",
       "value": 124.7
     },
-    "I43": {
-      "code": "I43",
+    "I0043": {
+      "code": "I0043",
       "name": "MAQUINA DE COSTURA HD6805C",
       "short": "MAQUINA DE COSTURA HD6805C",
       "category": "Costura Eletrônica e Têxteis",
       "url": "https://pt.wikiversity.org/wiki/Máquina_de_Costura_HD6805C",
       "value": 3200.42
     },
-    "I44": {
-      "code": "I44",
+    "I0044": {
+      "code": "I0044",
       "name": "KIT BALANCIM PREGAR REBITES LHOS + 7 JOGOS MATRIZ",
       "short": "KIT BALANCIM PREGAR REBITES LHOS + 7 JOGOS MATRIZ",
       "category": "Costura Eletrônica e Têxteis",
       "url": "https://pt.wikiversity.org/wiki/Balancim_para_Rebites_e_Ilhoses",
       "value": 379.94
     },
-    "I45": {
-      "code": "I45",
+    "I0045": {
+      "code": "I0045",
       "name": "COMPRESSOR PROFISSIONAL AIRFLOW B150 110220V COM AEROGRAFO WWSOLDAS",
       "short": "COMPRESSOR PROFISSIONAL AIRFLOW B150 110220V COM AEROGRAFO WWSOLDAS",
       "category": "Costura Eletrônica e Têxteis",
       "url": "https://pt.wikiversity.org/wiki/Aerógrafo_com_Compressor",
       "value": 674.1
     },
-    "I46": {
-      "code": "I46",
+    "I0046": {
+      "code": "I0046",
       "name": "PRENSA TERMICA SUBLIMIÇÃO PRATO CANECAS CAMISA 10 EM 1",
       "short": "PRENSA TERMICA SUBLIMIÇÃO PRATO CANECAS CAMISA 10 EM 1",
       "category": "Costura Eletrônica e Têxteis",
       "url": "https://pt.wikiversity.org/wiki/Prensa_Térmica_para_Sublimação",
       "value": 1842.26
     },
-    "I47": {
-      "code": "I47",
+    "I0047": {
+      "code": "I0047",
       "name": "SERRA TICO TICO GST 680 500W 220V BOSCH",
       "short": "SERRA TICO TICO GST 680 500W 220V BOSCH",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Serra_Tico-Tico",
       "value": 355.99
     },
-    "I48": {
-      "code": "I48",
+    "I0048": {
+      "code": "I0048",
       "name": "PARAFUSADEIRA FURADEIRA IMP 18V GSB 183 LI 1B 23 - BOSCH",
       "short": "PARAFUSADEIRA FURADEIRA IMP 18V GSB 183 LI 1B 23 - BOSCH",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Furadeira_e_Parafusadeira",
       "value": 581.27
     },
-    "I49": {
-      "code": "I49",
+    "I0049": {
+      "code": "I0049",
       "name": "BOSCH LIXADEIRA ROTOGEX 125 220V",
       "short": "BOSCH LIXADEIRA ROTOGEX 125 220V",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Lixadeira_Roto-Orbital",
       "value": 443.94
     },
-    "I50": {
-      "code": "I50",
+    "I0050": {
+      "code": "I0050",
       "name": "MLG-70 MORSA GIRATORIA LYNUS 70MM",
       "short": "MLG-70 MORSA GIRATORIA LYNUS 70MM",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Morsa_de_Bancada_Giratoria_70mm",
       "value": 115.0
     },
-    "I51": {
-      "code": "I51",
+    "I0051": {
+      "code": "I0051",
       "name": "SERRA CIRCULAR 7.1/4 POL 1600W HS7010 MAKITA",
       "short": "SERRA CIRCULAR 7.1/4 POL 1600W HS7010 MAKITA",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Serra_Circular_1600W_HS7010_Makita",
       "value": 580.11
     },
-    "I52": {
-      "code": "I52",
+    "I0052": {
+      "code": "I0052",
       "name": "MICROSCOPIO DIGITAL ASAWAKA LE2071 TELA GRANDE",
       "short": "MICROSCOPIO DIGITAL ASAWAKA LE2071 TELA GRANDE",
       "category": "Sensores Avançados e Instrumentação Científica",
       "url": "https://pt.wikiversity.org/wiki/Microscópio_Digital_LE2071_Asawaka",
       "value": 437.8
     },
-    "I53": {
-      "code": "I53",
+    "I0053": {
+      "code": "I0053",
       "name": "MICROSCOPIO BIOLOGICO TRINOCULAR 116T ACESSÓRIO CAMERA DIGITAL CMOS HDMI/USB 16MP",
       "short": "MICROSCOPIO BIOLOGICO TRINOCULAR 116T ACESSÓRIO CAMERA DIGITAL CMOS HDMI/USB 16MP",
       "category": "Sensores Avançados e Instrumentação Científica",
       "url": "https://pt.wikiversity.org/wiki/Microscópio_Biológico_com_Câmera_Digital_16MP",
       "value": 2290.0
     },
-    "I54": {
-      "code": "I54",
+    "I0054": {
+      "code": "I0054",
       "name": "ROTULADOR ELETRONICO BROTHER PT-H110BK PRETO",
       "short": "ROTULADOR ELETRONICO BROTHER PT-H110BK PRETO",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Rotulador_Eletrônico",
       "value": 292.0
     },
-    "I55": {
-      "code": "I55",
+    "I0055": {
+      "code": "I0055",
       "name": "CARREGADOR DE PILHA 8 SLOTS PRETO",
       "short": "CARREGADOR DE PILHA 8 SLOTS PRETO",
       "category": "Robótica e Eletrônica Básica",
       "url": "https://pt.wikiversity.org/wiki/Carregador_de_Pilhas_8_Slots",
       "value": 96.02
     },
-    "I56": {
-      "code": "I56",
+    "I0056": {
+      "code": "I0056",
       "name": "FONTE DE ALIMENTAÇÃO 2 A MIKEN YAXUN YIHUA",
       "short": "FONTE DE ALIMENTAÇÃO 2 A MIKEN YAXUN YIHUA",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_Yaxun",
       "value": 210.0
     },
-    "I57": {
-      "code": "I57",
+    "I0057": {
+      "code": "I0057",
       "name": "FONTE DE BANCADA YAXUN 1502DD+ 110V OU 220V",
       "short": "FONTE DE BANCADA YAXUN 1502DD+ 110V OU 220V",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_Yaxun",
       "value": 218.49
     },
-    "I58": {
-      "code": "I58",
+    "I0058": {
+      "code": "I0058",
       "name": "FONTE DE ALIMENTÇÃO DIGITAL 1502DD+",
       "short": "FONTE DE ALIMENTÇÃO DIGITAL 1502DD+",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_Yaxun",
       "value": 199.0
     },
-    "I59": {
-      "code": "I59",
+    "I0059": {
+      "code": "I0059",
       "name": "FONTE BANCADA ASSIMETRICA DIGITAL YAXUN 1502DD+",
       "short": "FONTE BANCADA ASSIMETRICA DIGITAL YAXUN 1502DD+",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_Yaxun",
       "value": 212.0
     },
-    "I60": {
-      "code": "I60",
+    "I0060": {
+      "code": "I0060",
       "name": "FONTE DE ALIMENTAÇÃO DIGITAL BANCADA 32V 5A AFR FA3005M",
       "short": "FONTE DE ALIMENTAÇÃO DIGITAL BANCADA 32V 5A AFR FA3005M",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Fonte_de_Alimentação_de_Bancada_AFR",
       "value": 444.35
     },
-    "I61": {
-      "code": "I61",
+    "I0061": {
+      "code": "I0061",
       "name": "OSCILOSCOPIOS DSO-510",
       "short": "OSCILOSCOPIOS DSO-510",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Osciloscópio_DSO-510",
       "value": 257.4
     },
-    "I62": {
-      "code": "I62",
+    "I0062": {
+      "code": "I0062",
       "name": "OSCILOSCOPIOS DSO-510",
       "short": "OSCILOSCOPIOS DSO-510",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Osciloscópio_DSO-510",
       "value": 315.51
     },
-    "I63": {
-      "code": "I63",
+    "I0063": {
+      "code": "I0063",
       "name": "MULTIMETRO DIGITAL HM-1550 HIKARI HM 1550",
       "short": "MULTIMETRO DIGITAL HM-1550 HIKARI HM 1550",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Multímetro_Digital_HM-1550_HIKARI",
       "value": 115.35
     },
-    "I64": {
-      "code": "I64",
+    "I0064": {
+      "code": "I0064",
       "name": "FNIRSI LCRP1 TESTADOR DE TRANSITOR DIODO TRIODO CAPACITÂNCIA RESISTÊNCIA MEDIDOR LCR ESR",
       "short": "FNIRSI LCRP1 TESTADOR DE TRANSITOR DIODO TRIODO CAPACITÂNCIA RESISTÊNCIA MEDIDOR LCR ESR",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Testador_de_Componentes_Eletrônicos_LCRP1_FNIRSI",
       "value": 246.14
     },
-    "I65": {
-      "code": "I65",
+    "I0065": {
+      "code": "I0065",
       "name": "MULTIMETRO ANALOGICO PROFISSIONAL",
       "short": "MULTIMETRO ANALOGICO PROFISSIONAL",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico_YX_360",
       "value": 54.9
     },
-    "I66": {
-      "code": "I66",
+    "I0066": {
+      "code": "I0066",
       "name": "MULTIMETRO ANALOGICO",
       "short": "MULTIMETRO ANALOGICO",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico_YX_360",
       "value": 38.76
     },
-    "I67": {
-      "code": "I67",
+    "I0067": {
+      "code": "I0067",
       "name": "MULTIMETRO ANALOGICO PCI-360 10 MEGAS PROFISSIONAL EMBORRACHADO",
       "short": "MULTIMETRO ANALOGICO PCI-360 10 MEGAS PROFISSIONAL EMBORRACHADO",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico_YX_360",
       "value": 38.76
     },
-    "I68": {
-      "code": "I68",
+    "I0068": {
+      "code": "I0068",
       "name": "MULTIMETRO ANALOGICO PCI-360 10 MEGAS PROFISSIONAL EMBORRACHADO",
       "short": "MULTIMETRO ANALOGICO PCI-360 10 MEGAS PROFISSIONAL EMBORRACHADO",
       "category": "Ferramentas Manuais e Manutenção",
       "url": "https://pt.wikiversity.org/wiki/Multímetro_Analógico_YX_360",
       "value": 42.04
     },
-    "I69": {
-      "code": "I69",
+    "I0069": {
+      "code": "I0069",
       "name": "BALANÇA COMERCIAL DIGITAL 40KG ALTA PRECISÃO BATERIA BIVOLT COR BRANCO",
       "short": "BALANÇA COMERCIAL DIGITAL 40KG ALTA PRECISÃO BATERIA BIVOLT COR BRANCO",
       "category": "Sensores Avançados e Instrumentação Científica",
@@ -573,1531 +573,1531 @@
   ,
   "tombamentos": {
     "2026013422": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E02"
     },
     "2026013417": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E07"
     },
     "2026013415": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E05"
     },
     "2026013418": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E04"
     },
     "2026013416": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E09"
     },
     "2026013419": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E03"
     },
     "2026013425": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E11"
     },
     "2026013423": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E10"
     },
     "2026013424": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E14"
     },
     "2026013427": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E12"
     },
     "2026013426": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E13"
     },
     "2026013421": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E15"
     },
     "2026013420": {
-      "item": "I05",
+      "item": "I0005",
       "escola": "E01"
     },
     "2026013407": {
-      "item": "I06",
+      "item": "I0006",
       "escola": "E08"
     },
     "2026013408": {
-      "item": "I06",
+      "item": "I0006",
       "escola": "E04"
     },
     "2026013409": {
-      "item": "I06",
+      "item": "I0006",
       "escola": "E03"
     },
     "2026013410": {
-      "item": "I06",
+      "item": "I0006",
       "escola": "E01"
     },
     "2026013559": {
-      "item": "I07",
+      "item": "I0007",
       "escola": "E05"
     },
     "2026013452": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E06"
     },
     "2026013449": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E02"
     },
     "2026013447": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E07"
     },
     "2026013455": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E08"
     },
     "2026013450": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E04"
     },
     "2026013448": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E09"
     },
     "2026013446": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E03"
     },
     "2026013445": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E11"
     },
     "2026013451": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E10"
     },
     "2026013457": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E14"
     },
     "2026013454": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E12"
     },
     "2026013453": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E13"
     },
     "2026013456": {
-      "item": "I08",
+      "item": "I0008",
       "escola": "E15"
     },
     "2026013389": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E06"
     },
     "2026013383": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E02"
     },
     "2026013387": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E07"
     },
     "2026013386": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E05"
     },
     "2026013388": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E08"
     },
     "2026013385": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E04"
     },
     "2026013390": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E09"
     },
     "2026013384": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E03"
     },
     "2026013392": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E11"
     },
     "2026013391": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E10"
     },
     "2026013762": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E14"
     },
     "2026013393": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E12"
     },
     "2026013761": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E13"
     },
     "2026013382": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E15"
     },
     "2026013381": {
-      "item": "I09",
+      "item": "I0009",
       "escola": "E01"
     },
     "2026013286": {
-      "item": "I10",
+      "item": "I0010",
       "escola": "E01"
     },
     "2026013294": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E06"
     },
     "2026013288": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E02"
     },
     "2026013292": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E07"
     },
     "2026013291": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E05"
     },
     "2026013293": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E08"
     },
     "2026013290": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E04"
     },
     "2026013295": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E09"
     },
     "2026013289": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E03"
     },
     "2026013297": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E11"
     },
     "2026013296": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E10"
     },
     "2026013298": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E12"
     },
     "2026013299": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E13"
     },
     "2026013287": {
-      "item": "I11",
+      "item": "I0011",
       "escola": "E15"
     },
     "2026013300": {
-      "item": "I12",
+      "item": "I0012",
       "escola": "E14"
     },
     "2026013562": {
-      "item": "I13",
+      "item": "I0013",
       "escola": "E08"
     },
     "2026013563": {
-      "item": "I13",
+      "item": "I0013",
       "escola": "E15"
     },
     "2026013544": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E02"
     },
     "2026013537": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E07"
     },
     "2026013539": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E04"
     },
     "2026013541": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E09"
     },
     "2026013542": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E03"
     },
     "2026013547": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E10"
     },
     "2026013549": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E14"
     },
     "2026013551": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E12"
     },
     "2026013553": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E13"
     },
     "2026013555": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E15"
     },
     "2026013557": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E01"
     },
     "2026013546": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E02"
     },
     "2026013538": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E07"
     },
     "2026013540": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E04"
     },
     "2026013543": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E09"
     },
     "2026013545": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E03"
     },
     "2026013548": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E10"
     },
     "2026013550": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E14"
     },
     "2026013552": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E12"
     },
     "2026013554": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E13"
     },
     "2026013556": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E15"
     },
     "2026013558": {
-      "item": "I14",
+      "item": "I0014",
       "escola": "E01"
     },
     "2026013359": {
-      "item": "I15",
+      "item": "I0015",
       "escola": "E05"
     },
     "2026013360": {
-      "item": "I15",
+      "item": "I0015",
       "escola": "E15"
     },
     "2026013355": {
-      "item": "I16",
+      "item": "I0016",
       "escola": "E06"
     },
     "2026013356": {
-      "item": "I16",
+      "item": "I0016",
       "escola": "E07"
     },
     "2026013357": {
-      "item": "I16",
+      "item": "I0016",
       "escola": "E08"
     },
     "2026013358": {
-      "item": "I16",
+      "item": "I0016",
       "escola": "E09"
     },
     "2026013361": {
-      "item": "I17",
+      "item": "I0017",
       "escola": "E11"
     },
     "2026013362": {
-      "item": "I17",
+      "item": "I0017",
       "escola": "E10"
     },
     "2026013363": {
-      "item": "I17",
+      "item": "I0017",
       "escola": "E14"
     },
     "2026013364": {
-      "item": "I17",
+      "item": "I0017",
       "escola": "E12"
     },
     "2026013515": {
-      "item": "I18",
+      "item": "I0018",
       "escola": "E02"
     },
     "2026013519": {
-      "item": "I18",
+      "item": "I0018",
       "escola": "E13"
     },
     "2026013516": {
-      "item": "I18",
+      "item": "I0018",
       "escola": "E05"
     },
     "2026013517": {
-      "item": "I18",
+      "item": "I0018",
       "escola": "E11"
     },
     "2026013513": {
-      "item": "I18",
+      "item": "I0018",
       "escola": "E01"
     },
     "2026013520": {
-      "item": "I18",
+      "item": "I0018",
       "escola": "E05"
     },
     "2026013518": {
-      "item": "I18",
+      "item": "I0018",
       "escola": "E11"
     },
     "2026013514": {
-      "item": "I18",
+      "item": "I0018",
       "escola": "E01"
     },
     "2026013521": {
-      "item": "I19",
+      "item": "I0019",
       "escola": "E14"
     },
     "2026013347": {
-      "item": "I20",
+      "item": "I0020",
       "escola": "E02"
     },
     "2026013345": {
-      "item": "I20",
+      "item": "I0020",
       "escola": "E01"
     },
     "2026013348": {
-      "item": "I20",
+      "item": "I0020",
       "escola": "E02"
     },
     "2026013346": {
-      "item": "I20",
+      "item": "I0020",
       "escola": "E01"
     },
     "2026013350": {
-      "item": "I21",
+      "item": "I0021",
       "escola": "E09"
     },
     "2026013351": {
-      "item": "I21",
+      "item": "I0021",
       "escola": "E11"
     },
     "2026013352": {
-      "item": "I21",
+      "item": "I0021",
       "escola": "E14"
     },
     "2026013353": {
-      "item": "I21",
+      "item": "I0021",
       "escola": "E13"
     },
     "2026013349": {
-      "item": "I21",
+      "item": "I0021",
       "escola": "E06"
     },
     "2026013354": {
-      "item": "I21",
+      "item": "I0021",
       "escola": "E06"
     },
     "2026013475": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E02"
     },
     "2026013473": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E05"
     },
     "2026013474": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E03"
     },
     "2026013476": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E11"
     },
     "2026013477": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E10"
     },
     "2026013478": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E14"
     },
     "2026013479": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E12"
     },
     "2026013480": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E13"
     },
     "2026013481": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E01"
     },
     "2026013482": {
-      "item": "I22",
+      "item": "I0022",
       "escola": "E01"
     },
     "2026013561": {
-      "item": "I23",
+      "item": "I0023",
       "escola": "E14"
     },
     "2026013369": {
-      "item": "I24",
+      "item": "I0024",
       "escola": "E02"
     },
     "2026013367": {
-      "item": "I25",
+      "item": "I0025",
       "escola": "E02"
     },
     "2026013368": {
-      "item": "I25",
+      "item": "I0025",
       "escola": "E14"
     },
     "2026013365": {
-      "item": "I25",
+      "item": "I0025",
       "escola": "E08"
     },
     "2026013366": {
-      "item": "I25",
+      "item": "I0025",
       "escola": "E08"
     },
     "2026013376": {
-      "item": "I26",
+      "item": "I0026",
       "escola": "E06"
     },
     "2026013377": {
-      "item": "I26",
+      "item": "I0026",
       "escola": "E05"
     },
     "2026013378": {
-      "item": "I26",
+      "item": "I0026",
       "escola": "E11"
     },
     "2026013379": {
-      "item": "I26",
+      "item": "I0026",
       "escola": "E14"
     },
     "2026013380": {
-      "item": "I26",
+      "item": "I0026",
       "escola": "E01"
     },
     "2026013394": {
-      "item": "I27",
+      "item": "I0027",
       "escola": "E08"
     },
     "2026013395": {
-      "item": "I27",
+      "item": "I0027",
       "escola": "E08"
     },
     "2026013373": {
-      "item": "I28",
+      "item": "I0028",
       "escola": "E11"
     },
     "2026013374": {
-      "item": "I29",
+      "item": "I0029",
       "escola": "E08"
     },
     "2026013370": {
-      "item": "I30",
+      "item": "I0030",
       "escola": "E08"
     },
     "2026013371": {
-      "item": "I30",
+      "item": "I0030",
       "escola": "E11"
     },
     "2026013397": {
-      "item": "I31",
+      "item": "I0031",
       "escola": "E08"
     },
     "2026013398": {
-      "item": "I31",
+      "item": "I0031",
       "escola": "E11"
     },
     "2026013372": {
-      "item": "I32",
+      "item": "I0032",
       "escola": "E11"
     },
     "2026013396": {
-      "item": "I33",
+      "item": "I0033",
       "escola": "E06"
     },
     "2026013267": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E02"
     },
     "2026013262": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E07"
     },
     "2026013263": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E05"
     },
     "2026013264": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E04"
     },
     "2026013265": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E09"
     },
     "2026013266": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E03"
     },
     "2026013268": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E11"
     },
     "2026013269": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E10"
     },
     "2026013270": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E14"
     },
     "2026013272": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E12"
     },
     "2026013564": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E13"
     },
     "2026013565": {
-      "item": "I34",
+      "item": "I0034",
       "escola": "E01"
     },
     "2026013375": {
-      "item": "I35",
+      "item": "I0035",
       "escola": "E15"
     },
     "2026013273": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E06"
     },
     "2026013279": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E02"
     },
     "2026013274": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E07"
     },
     "2026013275": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E05"
     },
     "2026013276": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E04"
     },
     "2026013277": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E09"
     },
     "2026013278": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E03"
     },
     "2026013280": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E11"
     },
     "2026013281": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E10"
     },
     "2026013282": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E12"
     },
     "2026013283": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E13"
     },
     "2026013284": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E15"
     },
     "2026013285": {
-      "item": "I36",
+      "item": "I0036",
       "escola": "E01"
     },
     "2026013402": {
-      "item": "I37",
+      "item": "I0037",
       "escola": "E04"
     },
     "2026013399": {
-      "item": "I37",
+      "item": "I0037",
       "escola": "E06"
     },
     "2026013404": {
-      "item": "I37",
+      "item": "I0037",
       "escola": "E02"
     },
     "2026013400": {
-      "item": "I37",
+      "item": "I0037",
       "escola": "E05"
     },
     "2026013401": {
-      "item": "I37",
+      "item": "I0037",
       "escola": "E08"
     },
     "2026013403": {
-      "item": "I37",
+      "item": "I0037",
       "escola": "E03"
     },
     "2026013405": {
-      "item": "I37",
+      "item": "I0037",
       "escola": "E14"
     },
     "2026013406": {
-      "item": "I37",
+      "item": "I0037",
       "escola": "E13"
     },
     "2026013337": {
-      "item": "I38",
+      "item": "I0038",
       "escola": "E06"
     },
     "2026013338": {
-      "item": "I38",
+      "item": "I0038",
       "escola": "E08"
     },
     "2026013339": {
-      "item": "I38",
+      "item": "I0038",
       "escola": "E09"
     },
     "2026013340": {
-      "item": "I38",
+      "item": "I0038",
       "escola": "E11"
     },
     "2026013341": {
-      "item": "I38",
+      "item": "I0038",
       "escola": "E10"
     },
     "2026013342": {
-      "item": "I38",
+      "item": "I0038",
       "escola": "E14"
     },
     "2026013343": {
-      "item": "I38",
+      "item": "I0038",
       "escola": "E12"
     },
     "2026013344": {
-      "item": "I39",
+      "item": "I0039",
       "escola": "E13"
     },
     "2026013261": {
-      "item": "I40",
+      "item": "I0040",
       "escola": "E03"
     },
     "2026013333": {
-      "item": "I41",
+      "item": "I0041",
       "escola": "E06"
     },
     "2026013334": {
-      "item": "I41",
+      "item": "I0041",
       "escola": "E14"
     },
     "2026013566": {
-      "item": "I42",
+      "item": "I0042",
       "escola": "E06"
     },
     "2026013567": {
-      "item": "I42",
+      "item": "I0042",
       "escola": "E03"
     },
     "2026013568": {
-      "item": "I42",
+      "item": "I0042",
       "escola": "E11"
     },
     "2026013569": {
-      "item": "I42",
+      "item": "I0042",
       "escola": "E14"
     },
     "2026013570": {
-      "item": "I42",
+      "item": "I0042",
       "escola": "E13"
     },
     "2026013571": {
-      "item": "I42",
+      "item": "I0042",
       "escola": "E01"
     },
     "2026013411": {
-      "item": "I43",
+      "item": "I0043",
       "escola": "E08"
     },
     "2026013412": {
-      "item": "I43",
+      "item": "I0043",
       "escola": "E04"
     },
     "2026013413": {
-      "item": "I43",
+      "item": "I0043",
       "escola": "E03"
     },
     "2026013414": {
-      "item": "I43",
+      "item": "I0043",
       "escola": "E01"
     },
     "2026013572": {
-      "item": "I44",
+      "item": "I0044",
       "escola": "E08"
     },
     "2026013573": {
-      "item": "I44",
+      "item": "I0044",
       "escola": "E04"
     },
     "2026013574": {
-      "item": "I44",
+      "item": "I0044",
       "escola": "E03"
     },
     "2026013575": {
-      "item": "I44",
+      "item": "I0044",
       "escola": "E01"
     },
     "2026013579": {
-      "item": "I45",
+      "item": "I0045",
       "escola": "E02"
     },
     "2026013576": {
-      "item": "I45",
+      "item": "I0045",
       "escola": "E05"
     },
     "2026013577": {
-      "item": "I45",
+      "item": "I0045",
       "escola": "E08"
     },
     "2026013578": {
-      "item": "I45",
+      "item": "I0045",
       "escola": "E13"
     },
     "2026013301": {
-      "item": "I46",
+      "item": "I0046",
       "escola": "E03"
     },
     "2026013608": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E02"
     },
     "2026013604": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E08"
     },
     "2026013605": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E04"
     },
     "2026013606": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E09"
     },
     "2026013607": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E03"
     },
     "2026013609": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E11"
     },
     "2026013610": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E13"
     },
     "2026013611": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E15"
     },
     "2026013612": {
-      "item": "I47",
+      "item": "I0047",
       "escola": "E01"
     },
     "2026013580": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E06"
     },
     "2026013587": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E02"
     },
     "2026013581": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E07"
     },
     "2026013582": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E05"
     },
     "2026013583": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E08"
     },
     "2026013584": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E04"
     },
     "2026013585": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E09"
     },
     "2026013586": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E03"
     },
     "2026013588": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E11"
     },
     "2026013589": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E10"
     },
     "2026013590": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E14"
     },
     "2026013591": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E12"
     },
     "2026013592": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E13"
     },
     "2026013593": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E15"
     },
     "2026013594": {
-      "item": "I48",
+      "item": "I0048",
       "escola": "E01"
     },
     "2026013599": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E02"
     },
     "2026013595": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E08"
     },
     "2026013596": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E04"
     },
     "2026013597": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E09"
     },
     "2026013598": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E03"
     },
     "2026013600": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E11"
     },
     "2026013601": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E13"
     },
     "2026013602": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E15"
     },
     "2026013603": {
-      "item": "I49",
+      "item": "I0049",
       "escola": "E01"
     },
     "2026013614": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E06"
     },
     "2026013621": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E02"
     },
     "2026013615": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E07"
     },
     "2026013616": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E05"
     },
     "2026013617": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E08"
     },
     "2026013618": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E04"
     },
     "2026013619": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E09"
     },
     "2026013620": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E03"
     },
     "2026013622": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E11"
     },
     "2026013623": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E10"
     },
     "2026013624": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E14"
     },
     "2026013625": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E12"
     },
     "2026013626": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E13"
     },
     "2026013627": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E15"
     },
     "2026013628": {
-      "item": "I50",
+      "item": "I0050",
       "escola": "E01"
     },
     "2026013613": {
-      "item": "I51",
+      "item": "I0051",
       "escola": "E03"
     },
     "2026013498": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E06"
     },
     "2026013505": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E02"
     },
     "2026013499": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E07"
     },
     "2026013500": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E05"
     },
     "2026013501": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E08"
     },
     "2026013502": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E04"
     },
     "2026013503": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E09"
     },
     "2026013504": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E03"
     },
     "2026013506": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E11"
     },
     "2026013507": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E10"
     },
     "2026013508": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E14"
     },
     "2026013509": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E12"
     },
     "2026013510": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E13"
     },
     "2026013511": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E15"
     },
     "2026013512": {
-      "item": "I52",
+      "item": "I0052",
       "escola": "E01"
     },
     "2026013442": {
-      "item": "I53",
+      "item": "I0053",
       "escola": "E04"
     },
     "2026013443": {
-      "item": "I53",
+      "item": "I0053",
       "escola": "E13"
     },
     "2026013444": {
-      "item": "I53",
+      "item": "I0053",
       "escola": "E13"
     },
     "2026013522": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E06"
     },
     "2026013529": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E02"
     },
     "2026013523": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E07"
     },
     "2026013524": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E05"
     },
     "2026013525": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E08"
     },
     "2026013526": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E04"
     },
     "2026013527": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E09"
     },
     "2026013528": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E03"
     },
     "2026013530": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E11"
     },
     "2026013531": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E10"
     },
     "2026013532": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E14"
     },
     "2026013533": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E12"
     },
     "2026013534": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E13"
     },
     "2026013535": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E15"
     },
     "2026013536": {
-      "item": "I54",
+      "item": "I0054",
       "escola": "E01"
     },
     "2026013318": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E06"
     },
     "2026013325": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E02"
     },
     "2026013319": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E07"
     },
     "2026013320": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E05"
     },
     "2026013321": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E08"
     },
     "2026013322": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E04"
     },
     "2026013323": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E09"
     },
     "2026013324": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E03"
     },
     "2026013326": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E11"
     },
     "2026013327": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E10"
     },
     "2026013328": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E14"
     },
     "2026013329": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E12"
     },
     "2026013330": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E13"
     },
     "2026013331": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E15"
     },
     "2026013332": {
-      "item": "I55",
+      "item": "I0055",
       "escola": "E01"
     },
     "2026013302": {
-      "item": "I56",
+      "item": "I0056",
       "escola": "E01"
     },
     "2026013430": {
-      "item": "I57",
+      "item": "I0057",
       "escola": "E02"
     },
     "2026013428": {
-      "item": "I57",
+      "item": "I0057",
       "escola": "E07"
     },
     "2026013429": {
-      "item": "I57",
+      "item": "I0057",
       "escola": "E03"
     },
     "2026013431": {
-      "item": "I57",
+      "item": "I0057",
       "escola": "E15"
     },
     "2026013432": {
-      "item": "I58",
+      "item": "I0058",
       "escola": "E06"
     },
     "2026013433": {
-      "item": "I58",
+      "item": "I0058",
       "escola": "E08"
     },
     "2026013434": {
-      "item": "I58",
+      "item": "I0058",
       "escola": "E09"
     },
     "2026013435": {
-      "item": "I58",
+      "item": "I0058",
       "escola": "E11"
     },
     "2026013436": {
-      "item": "I58",
+      "item": "I0058",
       "escola": "E10"
     },
     "2026013437": {
-      "item": "I59",
+      "item": "I0059",
       "escola": "E14"
     },
     "2026013438": {
-      "item": "I59",
+      "item": "I0059",
       "escola": "E12"
     },
     "2026013439": {
-      "item": "I59",
+      "item": "I0059",
       "escola": "E13"
     },
     "2026013440": {
-      "item": "I60",
+      "item": "I0060",
       "escola": "E05"
     },
     "2026013441": {
-      "item": "I60",
+      "item": "I0060",
       "escola": "E04"
     },
     "2026013461": {
-      "item": "I61",
+      "item": "I0061",
       "escola": "E02"
     },
     "2026013458": {
-      "item": "I61",
+      "item": "I0061",
       "escola": "E05"
     },
     "2026013459": {
-      "item": "I61",
+      "item": "I0061",
       "escola": "E04"
     },
     "2026013460": {
-      "item": "I61",
+      "item": "I0061",
       "escola": "E03"
     },
     "2026013462": {
-      "item": "I61",
+      "item": "I0061",
       "escola": "E15"
     },
     "2026013463": {
-      "item": "I61",
+      "item": "I0061",
       "escola": "E01"
     },
     "2026013464": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E06"
     },
     "2026013465": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E07"
     },
     "2026013466": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E08"
     },
     "2026013467": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E09"
     },
     "2026013468": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E11"
     },
     "2026013469": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E10"
     },
     "2026013470": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E14"
     },
     "2026013471": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E12"
     },
     "2026013472": {
-      "item": "I62",
+      "item": "I0062",
       "escola": "E13"
     },
     "2026013734": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E06"
     },
     "2026013741": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E02"
     },
     "2026013735": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E07"
     },
     "2026013736": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E05"
     },
     "2026013737": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E08"
     },
     "2026013738": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E04"
     },
     "2026013739": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E09"
     },
     "2026013740": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E03"
     },
     "2026013742": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E11"
     },
     "2026013743": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E10"
     },
     "2026013744": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E14"
     },
     "2026013745": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E12"
     },
     "2026013746": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E13"
     },
     "2026013747": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E15"
     },
     "2026013748": {
-      "item": "I63",
+      "item": "I0063",
       "escola": "E01"
     },
     "2026013483": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E06"
     },
     "2026013490": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E02"
     },
     "2026013484": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E07"
     },
     "2026013485": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E05"
     },
     "2026013486": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E08"
     },
     "2026013487": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E04"
     },
     "2026013488": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E09"
     },
     "2026013489": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E03"
     },
     "2026013491": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E11"
     },
     "2026013492": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E10"
     },
     "2026013493": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E14"
     },
     "2026013494": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E12"
     },
     "2026013495": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E13"
     },
     "2026013496": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E15"
     },
     "2026013497": {
-      "item": "I64",
+      "item": "I0064",
       "escola": "E01"
     },
     "2026013309": {
-      "item": "I65",
+      "item": "I0065",
       "escola": "E02"
     },
     "2026013310": {
-      "item": "I65",
+      "item": "I0065",
       "escola": "E15"
     },
     "2026013311": {
-      "item": "I65",
+      "item": "I0065",
       "escola": "E01"
     },
     "2026013312": {
-      "item": "I66",
+      "item": "I0066",
       "escola": "E06"
     },
     "2026013313": {
-      "item": "I66",
+      "item": "I0066",
       "escola": "E07"
     },
     "2026013314": {
-      "item": "I66",
+      "item": "I0066",
       "escola": "E05"
     },
     "2026013315": {
-      "item": "I66",
+      "item": "I0066",
       "escola": "E08"
     },
     "2026013316": {
-      "item": "I66",
+      "item": "I0066",
       "escola": "E04"
     },
     "2026013317": {
-      "item": "I66",
+      "item": "I0066",
       "escola": "E03"
     },
     "2026013304": {
-      "item": "I67",
+      "item": "I0067",
       "escola": "E09"
     },
     "2026013305": {
-      "item": "I67",
+      "item": "I0067",
       "escola": "E11"
     },
     "2026013306": {
-      "item": "I67",
+      "item": "I0067",
       "escola": "E10"
     },
     "2026013307": {
-      "item": "I67",
+      "item": "I0067",
       "escola": "E12"
     },
     "2026013308": {
-      "item": "I67",
+      "item": "I0067",
       "escola": "E13"
     },
     "2026013303": {
-      "item": "I68",
+      "item": "I0068",
       "escola": "E14"
     },
     "2026013560": {
-      "item": "I69",
+      "item": "I0069",
       "escola": "E04"
     }
   }
