@@ -1,12 +1,8 @@
 # LabTag — Cadastro e Leitura de Etiquetas RFID das Caixas
 
-App Kivy (nome do app: **LabTag**) que gerencia as etiquetas RFID/NFC das
-dos recursos do projeto REDEMAISCIENCIADF.
+App Kivy (nome do app: **LabTag**) que gerencia os qrcodes e as etiquetas RFID/NFC dos recursos dos laboratórios das escolas que participam do projeto Rede Mais Ciência nas Escolas Públicas do DF.
 
-> **Nota:** este README descreve o comportamento geral do app; algumas seções
-> (fluxo de gravação, telas, senha do modo Preparação) foram bastante
-> revisadas nas últimas iterações — se algo aqui destoar do código, o código
-> é a fonte da verdade.
+> **Nota:** este README descreve o comportamento geral do app; algumas seções (fluxo de gravação, telas, senha do modo Preparação) foram bastante revisadas nas últimas iterações — se algo aqui destoar do código, o código é a fonte da verdade.
 
 ## Como obter o código
 
@@ -15,13 +11,16 @@ git clone <URL-do-repositorio>
 cd labtag-app
 ```
 
+
+Se você crê que pode colaborar com esse projeto mander e-mail para JORGE HENRIQUE CABRAL FERNANDES: jhcf@unb.br.
+
 O repositório **não** contém os arquivos de configuração sensível
 (`.env`, `secrets.json`, o `.keystore` de assinatura) — eles ficam de fora do
 controle de versão de propósito (veja `.gitignore`). Depois de clonar, siga a
 seção [Ambiente de desenvolvimento local](#ambiente-de-desenvolvimento-local)
 para criar sua própria configuração local antes de rodar o app.
 
-## O que o app faz
+## O que o app faz - USANDO TAG RFID
 
 Ao aproximar uma etiqueta do smartphone:
 

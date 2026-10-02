@@ -13,7 +13,7 @@ import os
 import sqlite3
 import time
 
-
+ 
 def _default_db_path():
     # No Android, App.user_data_dir aponta para o diretório privado do app.
     # Aqui deixamos um fallback simples para rodar no desktop.
