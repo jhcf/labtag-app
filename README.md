@@ -1,6 +1,6 @@
-# LabTag — Cadastro e Leitura de Etiquetas RFID das Caixas
+# LabTag — Facilitação do Unboxing Pedagógico dos Recursos do Projeto Rede Mais Ciência nas Escolas Públicas do DF
 
-App Kivy (nome do app: **LabTag**) que gerencia os qrcodes e as etiquetas RFID/NFC dos recursos dos laboratórios das escolas que participam do projeto Rede Mais Ciência nas Escolas Públicas do DF.
+O App Python-Kivy (nome do app: **LabTag**) gerencia os qrcodes e as etiquetas RFID/NFC dos recursos dos laboratórios das escolas que participam do projeto Rede Mais Ciência nas Escolas Públicas do DF.
 
 > **Nota:** este README descreve o comportamento geral do app; algumas seções (fluxo de gravação, telas, senha do modo Preparação) foram bastante revisadas nas últimas iterações — se algo aqui destoar do código, o código é a fonte da verdade.
 
@@ -10,7 +10,6 @@ App Kivy (nome do app: **LabTag**) que gerencia os qrcodes e as etiquetas RFID/N
 git clone <URL-do-repositorio>
 cd labtag-app
 ```
-
 
 Se você crê que pode colaborar com esse projeto mander e-mail para JORGE HENRIQUE CABRAL FERNANDES: jhcf@unb.br.
 
